@@ -1,0 +1,120 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table Extraction</title>
+<style>
+body {
+    font-family: sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #e67e22;
+    color: white;
+}
+td {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div>BẢNG 4.1: THỐNG KÊ MÔ TẢ THEO ĐỘ TUỔI, GIỚI TÍNH, NGHỀ NGHIỆP VÀ THU NHẬP</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Đặc điểm</th>
+            <th>Tần số</th>
+            <th>Tỷ lệ (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="left">Từ 15 đến dưới 18 tuổi</td>
+            <td>89</td>
+            <td>17.8</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="left">Độ tuổi</td>
+            <td class="left">Từ 18 đến dưới 22 tuổi</td>
+            <td>257</td>
+            <td>51.4</td>
+        </tr>
+        <tr>
+            <td class="left">Từ 22 đến dưới 29 tuổi</td>
+            <td>105</td>
+            <td>21.0</td>
+        </tr>
+        <tr>
+            <td class="left">Từ 29 đến dưới 32 tuổi</td>
+            <td>49</td>
+            <td>9.8</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2" class="left">Giới tính</td>
+            <td class="left">Nam</td>
+            <td>218</td>
+            <td>43.6</td>
+        </tr>
+        <tr>
+            <td class="left">Nữ</td>
+            <td>282</td>
+            <td>56.4</td>
+        </tr>
+        <tr>
+            <td rowspan="5" class="left">Nghề nghiệp</td>
+            <td class="left">Học sinh/ Sinh viên</td>
+            <td>357</td>
+            <td>71.4</td>
+        </tr>
+        <tr>
+            <td class="left">Kinh doanh/ nhân viên bán hàng/ tư vấn viên</td>
+            <td>54</td>
+            <td>10.8</td>
+        </tr>
+        <tr>
+            <td class="left">Nhân viên văn phòng</td>
+            <td>50</td>
+            <td>10.0</td>
+        </tr>
+        <tr>
+            <td class="left">Công nhân viên chức</td>
+            <td>28</td>
+            <td>5.6</td>
+        </tr>
+        <tr>
+            <td class="left">Lao động phổ thông</td>
+            <td>11</td>
+            <td>2.2</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="left">Thu nhập</td>
+            <td class="left">Dưới 3 triệu đồng</td>
+            <td>133</td>
+            <td>26.6</td>
+        </tr>
+        <tr>
+            <td class="left">Từ 3 đến dưới 8 triệu đồng</td>
+            <td>218</td>
+            <td>43.6</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+```

@@ -1,0 +1,94 @@
+{
+    "candidates": [
+        {
+            "content": {
+                "parts": [
+                    {
+                        "text": "```html\n<div style=\"text-align: center;\">\n  <div style=\"text-align: left; margin-left: 80px;\">\n    <span style=\"font-size: 14px; font-weight: bold;\">NGÂN HÀNG NHÀ NƯỚC</span><br>\n    <span style=\"font-size: 14px; font-weight: bold;\">VIỆT NAM</span><br>\n    <hr style=\"width: 140px; margin-left: 0px;\">\n    <span style=\"font-size: 12px;\">Số: 32/2016/TT-NHNN</span>\n  </div>\n  <div style=\"text-align: center; margin-right: 80px;\">\n    <span style=\"font-size: 14px; font-weight: bold;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</span><br>\n    <span style=\"font-size: 14px; font-weight: bold;\">Độc lập - Tự do - Hạnh phúc</span><br>\n    <hr style=\"width: 140px; margin-left: auto; margin-right: auto;\">\n    <span style=\"font-size: 12px;\">Hà Nội, ngày 26 tháng 12 năm 2016</span>\n  </div>\n  <br>\n  <span style=\"font-size: 14px; font-weight: bold;\">THÔNG TƯ</span><br>\n  <span style=\"font-size: 14px; font-weight: bold;\">SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 23/2014/TT-NHNN NGÀY 19/8/2014 CỦA NGÂN HÀNG NHÀ NƯỚC VIỆT NAM HƯỚNG DẪN VIỆC MỞ VÀ SỬ DỤNG TÀI KHOẢN THANH TOÁN TẠI TỔ CHỨC CUNG ỨNG DỊCH VỤ THANH TOÁN</span>\n  <br>\n  <br>\n  <p style=\"text-align: justify; line-height: 1.5;\">\n    <span style=\"font-size: 14px;\">Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12 ngày 16 tháng 6 năm 2010;</span><br>\n    <span style=\"font-size: 14px;\">Căn cứ Luật Các tổ chức tín dụng số 47/2010/QH12 ngày 16 tháng 6 năm 2010;</span><br>\n    <span style=\"font-size: 14px;\">Căn cứ Nghị định số 101/2012/NĐ-CP ngày 22 tháng 11 năm 2012 của Chính phủ về thanh toán không dùng tiền mặt;</span><br>\n    <span style=\"font-size: 14px;\">Căn cứ Nghị định số 80/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 101/2012/NĐ-CP ngày 22 tháng 11 năm 2012 của Chính phủ về thanh toán không dùng tiền mặt;</span><br>\n    <span style=\"font-size: 14px;\">Căn cứ Nghị định số 156/2013/NĐ-CP ngày 11 tháng 11 năm 2013 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam;</span><br>\n    <span style=\"font-size: 14px;\">Theo đề nghị của Vụ trưởng Vụ Thanh toán;</span><br>\n    <span style=\"font-size: 14px;\">Thống đốc Ngân hàng Nhà nước Việt Nam ban hành Thông tư sửa đổi, bổ sung một số điều của Thông tư số 23/2014/TT-NHNN ngày 19/8/2014 của Ngân hàng Nhà nước Việt Nam hướng dẫn việc mở và sử dụng tài khoản thanh toán tại tổ chức cung ứng dịch vụ thanh toán.</span>\n  </p>\n  <br>\n  <span style=\"font-size: 14px; font-weight: bold;\">Điều 1. Sửa đổi, bổ sung một số điều và phụ lục của Thông tư số 23/2014/TT-NHNN ngày 19 tháng 8 năm 2014 của Ngân hàng Nhà nước Việt Nam hướng dẫn việc mở và sử dụng tài khoản thanh toán tại tổ chức cung ứng dịch vụ thanh toán</span>\n</div>\n```\n"
+                    }
+                ],
+                "role": "model"
+            },
+            "finish_reason": 1,
+            "index": 0,
+            "safety_ratings": [
+                {
+                    "category": 9,
+                    "probability": 1,
+                    "blocked": false
+                },
+                {
+                    "category": 8,
+                    "probability": 1,
+                    "blocked": false
+                },
+                {
+                    "category": 7,
+                    "probability": 1,
+                    "blocked": false
+                },
+                {
+                    "category": 10,
+                    "probability": 1,
+                    "blocked": false
+                }
+            ],
+            "citation_metadata": {
+                "citation_sources": [
+                    {
+                        "start_index": 1627,
+                        "end_index": 1788,
+                        "uri": "https://hoatieu.vn/thong-tu-15-2020-tt-nhnn-bieu-phi-dich-vu-thanh-toan-qua-ngan-hang-nha-nuoc-viet-nam-204393",
+                        "license_": ""
+                    },
+                    {
+                        "start_index": 1693,
+                        "end_index": 1827,
+                        "uri": "https://www.sbv.gov.vn/webcenter/contentattachfile/idcplg?dDocName=SBV246036&filename=248476.doc",
+                        "license_": ""
+                    },
+                    {
+                        "start_index": 1875,
+                        "end_index": 2009,
+                        "uri": "https://www.sbv.gov.vn/webcenter/contentattachfile/idcplg?dDocName=SBV246036&filename=248476.doc",
+                        "license_": ""
+                    },
+                    {
+                        "start_index": 2190,
+                        "end_index": 2326,
+                        "uri": "https://vanbanphapluat.co/thong-tu-32-2016-tt-nhnn-sua-doi-23-2014-tt-nhnn-mo-su-dung-tai-khoan-thanh-toan-to-chuc-thanh-toan",
+                        "license_": ""
+                    },
+                    {
+                        "start_index": 2264,
+                        "end_index": 2427,
+                        "uri": "http://www.chinhphu.vn/portal/page/portal/chinhphu/DoanhNghiep/duthaovanbanphapluat?_piref135_446244_135_446237_446237.mode=reply&_piref135_446244_135_446237_446237.id=1398",
+                        "license_": ""
+                    },
+                    {
+                        "start_index": 2504,
+                        "end_index": 2692,
+                        "uri": "https://vanbanphapluat.co/thong-tu-32-2016-tt-nhnn-sua-doi-23-2014-tt-nhnn-mo-su-dung-tai-khoan-thanh-toan-to-chuc-thanh-toan",
+                        "license_": ""
+                    },
+                    {
+                        "start_index": 2603,
+                        "end_index": 2728,
+                        "uri": "http://www.chinhphu.vn/portal/page/portal/chinhphu/DoanhNghiep/duthaovanbanphapluat?_piref135_446244_135_446237_446237.mode=reply&_piref135_446244_135_446237_446237.id=1398",
+                        "license_": ""
+                    }
+                ]
+            },
+            "token_count": 0,
+            "grounding_attributions": [],
+            "avg_logprobs": 0.0
+        }
+    ],
+    "usage_metadata": {
+        "prompt_token_count": 345,
+        "candidates_token_count": 1151,
+        "total_token_count": 1496,
+        "cached_content_token_count": 0
+    },
+    "model_version": "gemini-1.5-pro-001"
+}

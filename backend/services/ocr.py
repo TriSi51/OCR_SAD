@@ -1,11 +1,15 @@
-import litellm
-from litellm import acompletion
-from litellm.utils import ModelResponse
 import json
 import asyncio
+import litellm
+import os
+from typing import List
+from litellm import acompletion,batch_completion
+from litellm.utils import ModelResponse
 from config.model_config import load_api_key
-from utils.image_utils import image_to_base64
-litellm.set_verbose= True
+from .utils.code_utils import extract_code_html, image_to_base64,build_message_template_for_ocr
+
+os.environ['LITELLM_LOG'] = 'DEBUG'
+litellm._turn_on_debug()
 def load_model():
     model = "gemini/gemini-1.5-pro-001"
     return model
@@ -15,7 +19,7 @@ def temp_load_image(image_path:str) -> str:
     return image_to_base64(image_path=image_path) 
 
 
-async def get_response(image_path: str) -> ModelResponse:
+async def get_ocr_response_for_image(image_path: str) -> ModelResponse:
     response= await acompletion(
         model= load_model(),
         messages= [
@@ -26,27 +30,67 @@ async def get_response(image_path: str) -> ModelResponse:
                 {
                     "type": "image_url",
                     "image_url": {
-                        "url": temp_load_image(image_path),
-                        "format": "image/jpg"
+                        "url": "data:image/jpeg;base64," + temp_load_image(image_path="/home/ngotrisi/OCR_SAD/backend/test/ocr_test.jpg ")
                     }
                 },
             ],
         }
-
-
         ]
-
-        
     )
 
-    return response
+    
+    return extract_code_html(response['choices'][0]['message']['content'])
 
-#temp
-async def run():
-    response= await get_response(image_path="/media/ngotrisi/5CDA32B2DA328872/Ocr/backend/test/ocr_test.jpg")
-    rp= response.json()
-    with open('result_new.json','w', encoding= "utf8") as file:
-        json.dump(rp,file, ensure_ascii=True, indent=4)
 
-if __name__=="__main__":
-    asyncio.run(run())
+async def get_ocr_response_for_list_images(images: List[str]):
+    messages_template= build_message_template_for_ocr(images)
+    try:
+        responses = batch_completion(
+            model= load_model(),
+            messages = messages_template
+        )
+    except Exception  as e:
+        print(f"Error processing : {e}")
+    # responses=[]
+    # for image in images:
+    #     response = litellm.completion(
+    #     model=load_model(),
+    #     messages=[
+    #         {
+    #             "role": "user",
+    #             "content": [
+    #                 {"type": "text", "text": "OCR text for me"},
+    #                 {
+    #                     "type": "image_url",
+    #                     "image_url": {
+    #                         "url": f"data:image/jpeg;base64,{image}",
+    #                         "detail": "high"
+    #                     },
+    #                 },
+    #             ],
+    #         }
+    #     ],
+    #     )
+    #     responses.append(response)
+
+    with open("output/result_batch.json", "w", encoding="utf8") as file:
+        json.dump([response.to_dict() for response in responses], file,ensure_ascii=True, indent= 4)
+    return responses
+
+    
+
+
+
+# #temp
+# async def run():
+#     response= await get_ocr_response(image_path="/home/ngotrisi/OCR_SAD/backend/test/ocr_test.jpg")
+    
+#     rp= response.json()
+    
+#     with open('result_new.json','w', encoding= "utf8") as file:
+#         json.dump(rp,file, ensure_ascii=True, indent=4)
+
+#     print('Done')
+
+# if __name__=="__main__":
+#     asyncio.run(run())
