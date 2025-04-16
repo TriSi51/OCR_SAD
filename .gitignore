@@ -1,0 +1,5 @@
+
+/backend/.env
+
+#virtual env
+/backend/ocr_env

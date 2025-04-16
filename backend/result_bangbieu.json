@@ -1,0 +1,40 @@
+{
+    "candidates": [
+        {
+            "content": {
+                "parts": [
+                    {
+                        "text": "```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<title>Table Extraction</title>\n<style>\nbody {\n    font-family: sans-serif;\n}\ntable {\n    width: 100%;\n    border-collapse: collapse;\n}\nth, td {\n    border: 1px solid #ddd;\n    padding: 8px;\n    text-align: left;\n}\nth {\n    background-color: #e67e22;\n    color: white;\n}\ntd {\n    text-align: center;\n}\n.left {\n    text-align: left;\n}\n</style>\n</head>\n<body>\n\n<div>BẢNG 4.1: THỐNG KÊ MÔ TẢ THEO ĐỘ TUỔI, GIỚI TÍNH, NGHỀ NGHIỆP VÀ THU NHẬP</div>\n\n<table>\n    <thead>\n        <tr>\n            <th>Đặc điểm</th>\n            <th>Tần số</th>\n            <th>Tỷ lệ (%)</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td class=\"left\">Từ 15 đến dưới 18 tuổi</td>\n            <td>89</td>\n            <td>17.8</td>\n        </tr>\n        <tr>\n            <td rowspan=\"4\" class=\"left\">Độ tuổi</td>\n            <td class=\"left\">Từ 18 đến dưới 22 tuổi</td>\n            <td>257</td>\n            <td>51.4</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Từ 22 đến dưới 29 tuổi</td>\n            <td>105</td>\n            <td>21.0</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Từ 29 đến dưới 32 tuổi</td>\n            <td>49</td>\n            <td>9.8</td>\n        </tr>\n        <tr></tr>\n        <tr>\n            <td rowspan=\"2\" class=\"left\">Giới tính</td>\n            <td class=\"left\">Nam</td>\n            <td>218</td>\n            <td>43.6</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Nữ</td>\n            <td>282</td>\n            <td>56.4</td>\n        </tr>\n        <tr>\n            <td rowspan=\"5\" class=\"left\">Nghề nghiệp</td>\n            <td class=\"left\">Học sinh/ Sinh viên</td>\n            <td>357</td>\n            <td>71.4</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Kinh doanh/ nhân viên bán hàng/ tư vấn viên</td>\n            <td>54</td>\n            <td>10.8</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Nhân viên văn phòng</td>\n            <td>50</td>\n            <td>10.0</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Công nhân viên chức</td>\n            <td>28</td>\n            <td>5.6</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Lao động phổ thông</td>\n            <td>11</td>\n            <td>2.2</td>\n        </tr>\n        <tr>\n            <td rowspan=\"2\" class=\"left\">Thu nhập</td>\n            <td class=\"left\">Dưới 3 triệu đồng</td>\n            <td>133</td>\n            <td>26.6</td>\n        </tr>\n        <tr>\n            <td class=\"left\">Từ 3 đến dưới 8 triệu đồng</td>\n            <td>218</td>\n            <td>43.6</td>\n        </tr>\n    </tbody>\n</table>\n\n</body>\n</html>\n```"
+                    }
+                ],
+                "role": "model"
+            },
+            "finish_reason": 1,
+            "citation_metadata": {
+                "citation_sources": [
+                    {
+                        "start_index": 86,
+                        "end_index": 262,
+                        "uri": "https://github.com/pataxgregorio/expo"
+                    },
+                    {
+                        "start_index": 125,
+                        "end_index": 300,
+                        "uri": "https://github.com/AndrewRav/AirlinesWeb"
+                    }
+                ]
+            },
+            "avg_logprobs": -0.023726232230736614,
+            "safety_ratings": [],
+            "token_count": 0,
+            "grounding_attributions": []
+        }
+    ],
+    "usage_metadata": {
+        "prompt_token_count": 1412,
+        "candidates_token_count": 813,
+        "total_token_count": 2225,
+        "cached_content_token_count": 0
+    },
+    "model_version": "gemini-2.0-flash"
+}
