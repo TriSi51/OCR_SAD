@@ -3,3 +3,5 @@
 
 #virtual env
 /backend/ocr_env
+
+__pycache__/

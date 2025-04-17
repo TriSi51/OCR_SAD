@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 os.environ['LITELLM_LOG'] = 'DEBUG'
-os.environ['GEMINI_API_KEY'] = "AIzaSyDRv2LdAEwquUwP2CqIfXSdjwIh1CVlVy4"
 litellm._turn_on_debug()
 
 ListGeminiModel=[
