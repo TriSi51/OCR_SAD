@@ -1,0 +1,281 @@
+[
+    {
+        "id": "chatcmpl-c4a6ef33-4e33-4438-bc30-5115db5472b9",
+        "created": 1744860140,
+        "model": "gemini-1.5-pro-001",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "message": {
+                    "content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title></title>\n  <style>\n    body {\n      font-family: sans-serif;\n      text-align: center;\n    }\n    .container {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      height: 100vh;\n    }\n    .title {\n      font-size: 4em;\n      font-weight: bold;\n      margin-bottom: 1em;\n    }\n    .subtitle {\n      font-size: 2em;\n      margin-bottom: 2em;\n    }\n    .info {\n      margin-bottom: 0.5em;\n    }\n    .publisher {\n      margin-top: 3em;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <div class=\"content\">\n      <div class=\"title\">\u0110\u1ea0I VI\u1ec6T<br>S\u1eec K\u00dd<br>TO\u00c0N TH\u01af</div>\n      <div class=\"info\">B\u1ea3n in N\u1ed9i c\u00e1c quan b\u1ea3n<br>M\u1ed8C B\u1ea2N KH\u1eaeC N\u0102M CH\u00cdNH H\u00d2A TH\u1ee8 18 (1697)</div>\n      <div class=\"subtitle\">T\u1eacP I</div>\n      <div class=\"info\">L\u1eddi gi\u1edbi thi\u1ec7u :<br>Gi\u00e1o s\u01b0 Vi\u1ec7n s\u0129 : <b>NGUY\u1ec4N KH\u00c1NH TO\u00c0N</b></div>\n      <div class=\"info\">Kh\u1ea3o c\u1ee9u v\u1ec1 t\u00e1c gi\u1ea3, v\u0103n b\u1ea3n, t\u00e1c ph\u1ea9m :<br>Gi\u00e1o s\u01b0 <b>PHAN HUY L\u00ca</b></div>\n      <div class=\"info\">D\u1ecbch v\u00e0 ch\u00fa th\u00edch :<br><b>NG\u00d4 \u0110\u1ee8C TH\u1ecc</b></div>\n      <div class=\"info\">Hi\u1ec7u \u0111\u00ednh :<br>Gi\u00e1o s\u01b0 <b>H\u00c0 V\u0102N T\u1ea4N</b></div>\n    </div>\n    <div class=\"publisher\">NH\u00c0 XU\u1ea4T B\u1ea2N KHOA H\u1eccC X\u00c3 H\u1ed8I<br>H\u00c0 N\u1ed8I - 1998</div>\n  </div>\n</body>\n</html>\n```",
+                    "role": "assistant",
+                    "tool_calls": null,
+                    "function_call": null
+                }
+            }
+        ],
+        "usage": {
+            "completion_tokens": 534,
+            "prompt_tokens": 272,
+            "total_tokens": 806,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cached_tokens": null
+            }
+        },
+        "vertex_ai_grounding_metadata": [],
+        "vertex_ai_safety_results": [
+            [
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "probability": "NEGLIGIBLE"
+                }
+            ]
+        ],
+        "vertex_ai_citation_metadata": [
+            {
+                "citationSources": [
+                    {
+                        "startIndex": 95,
+                        "endIndex": 276,
+                        "uri": "https://github.com/passbase/python-demo-app",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 151,
+                        "endIndex": 344,
+                        "uri": "https://github.com/rameswar-oss/ML-Project",
+                        "license": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "chatcmpl-4b4305d9-c9ab-416e-ab40-cf81dc8210bb",
+        "created": 1744860140,
+        "model": "gemini-1.5-pro-001",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "message": {
+                    "content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>H\u1ed8I \u0110\u1ed2NG CH\u1ec8 \u0110\u1ea0O V\u00c0 DUY\u1ec6T</title>\n</head>\n<body>\n  <div style=\"text-align: center;\">\n    <p style=\"font-size: 16px; font-weight: bold;\">H\u1ed8I \u0110\u1ed2NG CH\u1ec8 \u0110\u1ea0O V\u00c0 DUY\u1ec6T</p>\n    <br>\n    <p style=\"font-size: 14px;\">Ch\u1ee7 t\u1ecbch :<br>NGUY\u1ec4N KH\u00c1NH TO\u00c0N<br>Gi\u00e1o s\u01b0 Vi\u1ec7n s\u0129</p>\n    <br>\n    <p style=\"font-size: 14px;\">\u1ee6y vi\u00ean :<br>PHAN HUY L\u00ca<br>Gi\u00e1o s\u01b0 s\u1eed h\u1ecdc \u0110\u1ea1i h\u1ecdc t\u1ed5ng h\u1ee3p H\u00e0 N\u1ed9i</p>\n    <br>\n    <p style=\"font-size: 14px;\">NGUY\u1ec4N \u0110\u1ee8C DI\u1ec6U<br>Gi\u00e1m \u0111\u1ed1c T\u1ed5ng bi\u00ean t\u1eadp<br>Nh\u00e0 xu\u1ea5t b\u1ea3n Khoa h\u1ecdc x\u00e3 h\u1ed9i</p>\n  </div>\n</body>\n</html>\n```",
+                    "role": "assistant",
+                    "tool_calls": null,
+                    "function_call": null
+                }
+            }
+        ],
+        "usage": {
+            "completion_tokens": 277,
+            "prompt_tokens": 272,
+            "total_tokens": 549,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cached_tokens": null
+            }
+        },
+        "vertex_ai_grounding_metadata": [],
+        "vertex_ai_safety_results": [
+            [
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "probability": "NEGLIGIBLE"
+                }
+            ]
+        ],
+        "vertex_ai_citation_metadata": []
+    },
+    {
+        "id": "chatcmpl-8261d98c-4a8a-4020-8d21-770c77b52bd7",
+        "created": 1744860140,
+        "model": "gemini-1.5-pro-001",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "message": {
+                    "content": "```html\n<div style=\"font-family: serif; font-size: 16px;\">\n  <h2 style=\"text-align: center;\">L\u1edcI NH\u00c0 XU\u1ea4T B\u1ea2N</h2>\n  <p style=\"text-indent: 30px;\">N\u0102M 1967, Nh\u00e0 xu\u1ea5t b\u1ea3n Khoa h\u1ecdc x\u00e3 h\u1ed9i \u0111\u00e3 xu\u1ea5t b\u1ea3n b\u1ed9 <i>\u0110\u1ea1i Vi\u1ec7t s\u1eed k\u00fd to\u00e0n th\u01b0</i> g\u1ed3m 4 t\u1eadp do nh\u00e0 H\u00e0n h\u1ecdc Cao Huy Giu d\u1ecbch v\u00e0 Gi\u00e1o s\u01b0 \u0110\u00e0o Duy Anh hi\u1ec7u \u0111\u00ednh. \u0110\u00f3 l\u00e0 m\u1ed9t b\u1ed9 s\u1eed l\u1edbn, c\u00f3 gi\u00e1 tr\u1ecb, \u0111\u01b0\u1ee3c bi\u00ean so\u1ea1n qua nhi\u1ec1u \u0111\u1eddi, g\u1eafn li\u1ec1n v\u1edbi t\u00ean tu\u1ed5i c\u1ee7a nh\u1eefng nh\u00e0 s\u1eed h\u1ecdc n\u1ed5i ti\u1ebfng ng\u00e0y x\u01b0a nh\u01b0 L\u00ea V\u0103n H\u01b0u th\u1ebf k\u1ef7 XIII, Phan Phu Ti\u00ean, Ng\u00f4 S\u0129 Li\u00ean th\u1ebf k\u1ef7 XV, Ph\u1ea1m C\u00f4ng Tr\u1ee9, L\u00ea Hy th\u1ebf k\u1ef7 XVII...</p>\n  <p style=\"text-indent: 30px;\">N\u0103m 1971, b\u1ed9 s\u1eed \u0111\u00f3 \u0111\u01b0\u1ee3c t\u00e1i b\u1ea3n l\u1ea7n th\u1ee9 ba, sau \u0111\u00f3 m\u1ed9t th\u1eddi gian, nhi\u1ec1u b\u1ea1n \u0111\u1ecdc y\u00eau th\u00edch s\u1eed h\u1ecdc, nhi\u1ec1u c\u00e1n b\u1ed9 nghi\u00ean c\u1ee9u v\u00e0 gi\u1ea3ng d\u1ea1y thu\u1ed9c nhi\u1ec1u ng\u00e0nh, nhi\u1ec1u c\u01a1 quan \u0111\u00e3 y\u00eau c\u1ea7u ch\u00fang t\u00f4i t\u00e1i b\u1ea3n th\u01b0 b\u1ed5 s\u1eed \u1ea5y.</p>\n  <p style=\"text-indent: 30px;\">Gi\u1eefa l\u00fac \u0111\u00f3 th\u00ec Gi\u00e1o s\u01b0 s\u1eed h\u1ecdc Phan Huy L\u00ea, sau chuy\u1ebfn \u0111i c\u00f4ng t\u00e1c \u1edf Ph\u00e1p v\u1ec1, cho ch\u00fang t\u00f4i bi\u1ebft vi\u1ec7c ph\u00e1t hi\u1ec7n ra b\u1ea3n in x\u01b0a nh\u1ea5t c\u1ee7a b\u1ed9 <i>\u0110\u1ea1i Vi\u1ec7t s\u1eed k\u00fd to\u00e0n th\u01b0</i> b\u1ea3n in N\u1ed3i Gi\u00e1o s\u01b0 \u0111em v\u1ec1 n\u01b0\u1edbc. \u0110\u00f3 l\u00e0 b\u1ea3n in theo v\u0103n b\u1ea3n sao ch\u1ee5p b\u1ea3n \u1ea5n \u1ea5y do c\u00e1c quan b\u1ea3n, v\u00e0 vun \u0111\u00fac n\u0103m Ch\u00ednh H\u00f2a th\u1ee9 18, t\u1ee9c n\u0103m 1697, c\u00f2n \u0111\u01b0\u1ee3c l\u01b0u gi\u1eef t\u1ea1i Th\u01b0 vi\u1ec7n c\u1ee7a H\u1ed9i \u00c1 ch\u00e2u \u1edf Paris.</p>\n  <p style=\"text-indent: 30px;\">N\u0103m 1985, theo \u0111\u1ec1 ngh\u1ecb c\u1ee7a \u1ee6y ban Khoa h\u1ecdc x\u00e3 h\u1ed9i Vi\u1ec7t Nam, ba C. Rageau, Gi\u00e1m \u0111\u1ed1c Th\u01b0 vi\u1ec7n Tr\u01b0\u1eddng Vi\u1ec5n \u0110\u00f4ng b\u1eb7c c\u1ed5 (EFEO), \u0111\u00e3 \u0111em sang t\u1eb7ng Vi\u1ec7t Nam b\u1ed9 vi phim (microfilm) b\u1ea3n in N\u1ed3i c\u00e1c quan b\u1ea3n c\u1ee7a to\u00e0n quy\u1ec1n s\u1eed to\u00e0n th\u01b0 d\u1ea1ng l\u01b0u gi\u1eef \u1edf Paris v\u00e0 \u0111\u1ed3ng \u00fd cho Vi\u1ec7t Nam \u0111\u01b0\u1ee3c to\u00e0n quy\u1ec1n s\u1eed d\u1ee5ng v\u0103n b\u1ea3n n\u00e0y.</p>\n  <p style=\"text-indent: 30px;\">Ch\u00fang t\u00f4i \u0111\u00e3 b\u00e1o c\u00e1o l\u00ean \u1ee6y ban Khoa h\u1ecdc x\u00e3 h\u1ed9i Vi\u1ec7t Nam (Vi\u1ec7n Khoa h\u1ecdc x\u00e3 h\u1ed9i Vi\u1ec7t Nam hi\u1ec7n nay) v\u00e0 \u0111\u1ec1 ngh\u1ecb cho t\u1ed5 ch\u1ee9c nghi\u00ean c\u1ee9u, phi\u00ean d\u1ecbch v\u00e0 xu\u1ea5t b\u1ea3n k\u1ecbp th\u1eddi b\u1ed9 <i>\u0110\u1ea1i Vi\u1ec7t s\u1eed k\u00fd to\u00e0n th\u01b0</i> c\u0103n c\u1ee9 tr\u00ean b\u1ea3n in N\u1ed3i c\u00e1c quan b\u1ea3n \u0111\u01b0\u1ee3c in t\u1eeb v\u0103n b\u1ea3n sao b\u1ea3n khi \u0111\u1ec1 ngh\u1ecb tr\u00ean \u0111\u01b0\u1ee3c ch\u1ea5p nh\u1eadn, m\u1ed9t H\u1ed9i \u0111\u1ed3ng ch\u1ec9 \u0111\u1ea1o \u0111\u00e3 th\u00e0nh l\u1eadp, g\u1ed3m:</p>\n  <p style=\"text-indent: 30px;\">Ch\u1ee7 t\u1ecbch: - Gi\u00e1o s\u01b0 Vi\u1ec7n s\u0129 Nguy\u1ec5n Kh\u00e1nh Toan.</p>\n  <p style=\"text-indent: 30px;\">\u1ee6y vi\u00ean: - Gi\u00e1o s\u01b0 s\u1eed h\u1ecdc Phan Huy L\u00ea</p>\n  <p style=\"text-indent: 60px;\"> - Gi\u00e1m \u0111\u1ed1c ki\u00eam T\u1ed5ng bi\u00ean t\u1eadp Nh\u00e0 xu\u1ea5t b\u1ea3n Khoa h\u1ecdc x\u00e3 h\u1ed9i Ph\u1ea1m H\u1eefu.</p>\n  <p style=\"text-indent: 30px;\">Sau khi \u00f4ng Ph\u1ea1m H\u1eefu ngh\u1ec9 h\u01b0u, \u00f4ng Nguy\u1ec5n \u0110\u1ee9c Di\u00eau gi\u1eef ch\u1ee9c Gi\u00e1m \u0111\u1ed1c ki\u00eam T\u1ed5ng bi\u00ean t\u1eadp Nh\u00e0 xu\u1ea5t b\u1ea3n Khoa h\u1ecdc x\u00e3 h\u1ed9i \u0111\u00e3 tham gia H\u1ed9i \u0111\u1ed3ng ch\u1ec9 \u0111\u1ea1o v\u1edbi c\u01b0\u01a1ng v\u1ecb u\u1ef7 vi\u00ean thay th\u1ebf \u00f4ng Ph\u1ea1m H\u1ef1u.</p>\n  <p style=\"text-indent: 30px;\"><i>\u0110\u1ea1i Vi\u1ec7t s\u1eed k\u00fd to\u00e0n th\u01b0</i> l\u00e0 m\u1ed9t b\u1ed9 s\u1eed c\u00f3 gi\u00e1 tr\u1ecb v\u1ec1 nhi\u1ec1u m\u1eb7t, l\u00e0 m\u1ed9t di s\u1ea3n qu\u00fd b\u00e1u c\u1ee7a n\u1ec1n v\u0103n h\u00f3a d\u00e2n t\u1ed9c. D\u01b0\u1edbi s\u1ef1 ch\u1ec9 \u0111\u1ea1o c\u1ee7a H\u1ed9i \u0111\u1ed3ng, ch\u00fang t\u00f4i th\u1ea5y c\u00f3 nhi\u1ec7m v\u1ee5 ph\u1ea3i c\u1ed1 g\u1eafng l\u00e0m sao \u0111\u1ec3 cho c\u00f4ng tr\u00ecnh xu\u1ea5t b\u1ea3n n\u00e0y x\u1ee9ng \u0111\u00e1ng v\u1edbi v\u1ecb tr\u00ed v\u00e0 gi\u00e1 tr\u1ecb c\u1ee7a b\u1ed9 s\u1eed. V\u00ec v\u1eady khi tham kh\u1ea3o v\u00e0 k\u1ebf th\u1eeba b\u1ea3n d\u1ecbch c\u0169, nh\u01b0ng ph\u1ea3i d\u1ecbch l\u1ea1i tr\u1ef1c ti\u1ebfp t\u1eeb v\u0103n b\u1ea3n m\u1edbi ph\u00e1t hi\u1ec7n. Ch\u00fang t\u00f4i c\u0169ng mong mu\u1ed1n b\u1ea3n d\u1ecbch m\u1edbi ti\u1ebfp thu nh\u1eefng th\u00e0nh t\u1ef1u m\u1edbi v\u1ec1 ng\u00f4n ng\u1eef ti\u1ebfng Vi\u1ec7t v\u00e0 d\u1ecbch thu\u1eadt H\u00e1n trong th\u1eddi gian g\u1ea7n \u0111\u00e2y.</p>\n</div>\n```",
+                    "role": "assistant",
+                    "tool_calls": null,
+                    "function_call": null
+                }
+            }
+        ],
+        "usage": {
+            "completion_tokens": 932,
+            "prompt_tokens": 272,
+            "total_tokens": 1204,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cached_tokens": null
+            }
+        },
+        "vertex_ai_grounding_metadata": [],
+        "vertex_ai_safety_results": [
+            [
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "probability": "NEGLIGIBLE"
+                }
+            ]
+        ],
+        "vertex_ai_citation_metadata": [
+            {
+                "citationSources": [
+                    {
+                        "startIndex": 251,
+                        "endIndex": 531,
+                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 818,
+                        "endIndex": 953,
+                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 1559,
+                        "endIndex": 1726,
+                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 2526,
+                        "endIndex": 2688,
+                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 2698,
+                        "endIndex": 2892,
+                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "license": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "chatcmpl-a9030b65-f9e2-439a-9ac8-12b4b89152ce",
+        "created": 1744860140,
+        "model": "gemini-1.5-pro-001",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "message": {
+                    "content": "```html\n<div style=\"font-family: serif;\">\n    <h1 style=\"font-weight: bold; text-align: center;\">L\u1edcI GI\u1edaI THI\u1ec6U</h1>\n    <p style=\"text-align: center;\">NGUY\u1ec4N KH\u1eaeNH TO\u00c0N</p>\n    \n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        <span style=\"font-weight: bold;\">M</span>\u1ed9t d\u00e2n t\u1ed9c c\u00f3 n\u1ec1n v\u0103n ho\u00e1 l\u00e2u \u0111\u1eddi bao gi\u1edd c\u0169ng tr\u00e2n th\u1ecb, gi\u1eef g\u00ecn, coi nh\u01b0 thi\u00eang li\u00eang nh\u1eefng di t\u00edch c\u1ee7a n\u00f3, \u0111\u1eb7c bi\u1ec7t l\u00e0 d\u1ea5u t\u00edch c\u1ee7a nh\u1eefng s\u1ef1 nghi\u1ec7p anh h\u00f9ng v\u00e0 quang vinh c\u1ee7a \u00f4ng cha, n\u1ed9i gi\u1ed1ng, nh\u01b0 nh\u1eafc l\u1ea1i nh\u1eefng k\u00fd c\u00f4ng c\u1ee7a c\u00e1c b\u1eadc tu\u1ea5n b\u1ed3i trong cu\u1ed9c \u0111\u1ea5u tranh v\u00ec \u0111\u1ed9c l\u1eadp, t\u1ef1 do, v\u00ec \u0111\u1eddi s\u1ed1ng \u1ea5m no, h\u1ea1nh ph\u00fac c\u1ee7a c\u00e1c th\u1ebf h\u1ec7 \u0111\u00e3 qua.\n    </p>\n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        V\u1ec1 ph\u01b0\u01a1ng di\u1ec7n \u1ea5y, nh\u1eefng c\u00e1i g\u1ecdi l\u00e0 di s\u1ea3n v\u0103n h\u00f3a, tuy thu\u1ed9c v\u1ec1 qu\u00e1 kh\u1ee9 c\u1ee7a m\u1ed9t d\u0129 v\u00e3ng kh\u00f4ng bao gi\u1edd tr\u1edf l\u1ea1i, nh\u01b0ng n\u00f3 v\u1eabn s\u1ed1ng b\u1edfi v\u00ec nh\u1eefng c\u00e1i ch\u00fang ta l\u00e0m h\u00f4m nay, trong \u0111\u1eddi s\u1ed1ng v\u1eadt ch\u1ea5t c\u0169ng nh\u01b0 trong \u0111\u1eddi s\u1ed1ng tinh th\u1ea7n, l\u00e0 ti\u1ebfp t\u1ee5c c\u00e1i h\u00f4m qua.\n    </p>\n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        Trong c\u00e1c lo\u1ea1i di s\u1ea3n v\u0103n h\u00f3a c\u1ee7a d\u00e2n t\u1ed9c, hi\u1ec7n nay ch\u00fang ta c\u1ea7n \u0111\u1eb7c bi\u1ec7t quan t\u00e2m \u0111\u1ebfn c\u00e1c lo\u1ea1i s\u00e1ch c\u00f3 v\u1ec1 \u0111\u1ea5t n\u01b0\u1edbc v\u00e0 con ng\u01b0\u1eddi, v\u1ec1 v\u0103n h\u00f3a, x\u00e3 h\u1ed9i, nh\u1ea5t l\u00e0 v\u1ec1 l\u1ecbch s\u1eed n\u01b0\u1edbc ta.\n    </p>\n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        C\u00f3 s\u1ef1 m\u00e1u nhu\u1ea7n l\u00e0 \u0111\u01a1n ni\u00fd, l\u00e0 d\u00e2n t\u1ed9c, ta c\u00f3 n\u1ec1n v\u0103n h\u00f3a \u0111\u1ed9c \u0111\u00e1o m\u00e0 nh\u00e2n d\u00e2n ta t\u1ef1 bao \u0111\u1eddi, m\u00ecnh, do t\u1ef1 x\u00e2y d\u1ef1ng l\u1ea5y, \u0111\u1ea5t n\u01b0\u1edbc m\u00ecnh. Con ng\u01b0\u1eddi Vi\u1ec7t vi\u1ebft v\u1ec1 l\u1ecbch s\u1eed nh\u1eefng ch\u1ec9 ch\u00edch \u0111\u1ea7y ng\u01b0\u1eddi T\u00e0u vi\u1ebft, ch\u1ec9 th\u00ecnh tho\u1ea3ng h\u1ecd m\u1edbi n\u00f3i \u0111\u1ebfn c\u00e1i \u0111\u1ea5t n\u01b0\u1edbc c\u1ee7a m\u1ed9t t\u1ed9c \u201cman di\u201d g\u1ecdi l\u00e0 Giao Ch\u1ec9, m\u1ed7i m\u1ea3nh \u0111\u1ea5t h\u1ea7u nh\u01b0 hoang vu, con ng\u01b0\u1eddi c\u00f2n s\u1ed1ng s\u01a1 khai, c\u1ea7n ph\u1ea3i \u0111\u01b0\u1ee3c \u201cThi\u00ean tri\u1ec1u\u201d gi\u00e1o h\u00f3a.\n    </p>\n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        V\u00ec th\u1ebf m\u00e0 trong su\u1ed1t c\u1ea3 m\u1ed9t th\u1eddi gian l\u1ecbch s\u1eed d\u00e2n t\u1ed9c Vi\u1ec7t Nam ph\u1ea3i li\u00ean t\u1ee5c \u0111\u1ea5u tranh ch\u1ed1ng x\u00e2m l\u01b0\u1ee3c c\u1ee7a n\u01b0\u1edbc ngo\u00e0i, Ch\u00ednh trong cu\u1ed9c \u0111\u1ea5u tranh \u0111\u1ea7y hy sinh gian kh\u1ed5, nh\u01b0ng anh h\u00f9ng b\u1ea5t khu\u1ea5t \u1ea5y m\u00e0 d\u00e2n t\u1ed9c ta x\u00e2y d\u1ef1ng v\u00e0 ph\u00e1t tri\u1ec3n n\u1ec1n v\u0103n minh, ti\u00eau bi\u1ec3u l\u00e0 n\u1ec1n v\u0103n h\u00f3a \u0110\u1ea1i Vi\u1ec7t th\u1eddi L\u00fd, Tr\u1ea7n, L\u00ea.\n    </p>\n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        Cho n\u00ean, r\u1ea5t d\u1ec5 hi\u1ec3u, c\u00e1ch \u0111\u00e2y t\u00e1m, ch\u00edn tr\u0103m n\u0103m, khi l\u1ecbch s\u1eed n\u01b0\u1edbc ta \u0111i v\u00e0o k\u1ef7 nguy\u00ean \u0110\u1ea1i Vi\u1ec7t, xu\u1ea5t hi\u1ec7n nh\u1eefng nh\u00e0 s\u1eed h\u1ecdc l\u1edbn nh\u01b0: L\u00ea V\u0103n H\u01b0u, Ng\u00f4 S\u0129 Li\u00ean...\n    </p>\n    <p style=\"text-indent: 30px; line-height: 1.5;\">\n        \u0110\u1ed1i v\u1edbi th\u1eddi k\u1ef3 l\u1eebng danh nh\u01b0 th\u1eddi \u0110\u1ea1i Vi\u1ec7t, n\u00f3 l\u00e0 m\u1ed9t b\u1ea3n anh h\u00f9ng ca, c\u00e1i g\u00ec c\u00f3 li\u00ean quan \u0111\u1ebfn n\u00f3, d\u1ea7u l\u00e0 m\u1ed9t c\u00e2u, m\u1ed9t d\u00f2ng ch\u1eef t\u1ef1 tay nh\u00e2n v\u1eadt\n    </p>\n</div>\n```",
+                    "role": "assistant",
+                    "tool_calls": null,
+                    "function_call": null
+                }
+            }
+        ],
+        "usage": {
+            "completion_tokens": 784,
+            "prompt_tokens": 272,
+            "total_tokens": 1056,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cached_tokens": null
+            }
+        },
+        "vertex_ai_grounding_metadata": [],
+        "vertex_ai_safety_results": [
+            [
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "probability": "NEGLIGIBLE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "probability": "NEGLIGIBLE"
+                }
+            ]
+        ],
+        "vertex_ai_citation_metadata": [
+            {
+                "citationSources": [
+                    {
+                        "startIndex": 333,
+                        "endIndex": 467,
+                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 774,
+                        "endIndex": 947,
+                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 2098,
+                        "endIndex": 2246,
+                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
+                        "license": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -56,7 +56,7 @@ def build_message_template_for_ocr(base64_images: List[str]) -> List[Dict[str,An
                 {
                     "type": "image_url",
                     "image_url": {
-                        "url": "data:image/jpeg;base64," + base64_image,
+                        "url": f"data:image/jpeg;base64,{base64_image}",
                         "detail": "high"
                     }
                 },
