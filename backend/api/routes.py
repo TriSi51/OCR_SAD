@@ -16,10 +16,9 @@ async def perform_pdf_ocr(file: UploadFile= File(...)):
 
         images= convert_pdf_to_images(tmp.name)
         base64_images= convert_images_to_base64(images)
-        return get_ocr_response_for_list_images(base64_images)
+        return await get_ocr_response_for_list_images(base64_images)
 
         
 
 
 
-    

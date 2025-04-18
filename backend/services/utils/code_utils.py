@@ -46,8 +46,11 @@ def convert_images_to_base64(images: List[Image.Image]) -> List[str]:
     return base64_list
 
 def build_message_template_for_ocr(base64_images: List[str]) -> List[Dict[str,Any]]:
-    messages=[]
+    """
+    This function is built for batch completion
+    """
 
+    messages=[]
     for base64_image in base64_images:
         message={
             "role": "user",
