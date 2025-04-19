@@ -9,7 +9,7 @@ from services.ocr import get_ocr_response_for_list_images
 from dotenv import load_dotenv
 import tempfile
 
-load_dotenv()
+load_dotenv(override=True)
 
 os.environ['LITELLM_LOG'] = 'DEBUG'
 
@@ -17,13 +17,13 @@ os.environ['LITELLM_LOG'] = 'DEBUG'
 
 
 def run_gemini():
-    genai.configure(api_key=os.getenv('NOR_GEMINI_API_KEY'))
+    genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 
     # Load the image
     image = Image.open('/home/ngotrisi/OCR_SAD/backend/test/ocr_test.jpg')
 
     # Initialize the Gemini model
-    model = genai.GenerativeModel('gemini-1.5-pro-001')
+    model = genai.GenerativeModel('gemini-2.5-pro-preview-03-25')
 
     # Define the prompt to extract HTML
     prompt = (
@@ -61,10 +61,10 @@ async def run_batch_completion(pdf_path:str):
         images= convert_pdf_to_images(tmp.name)
         base64_images= convert_images_to_base64(images)
         return await get_ocr_response_for_list_images(base64_images)
-    
+
 
 if __name__ == "__main__":
 
-    file_pdf= "/home/ngotrisi/OCR_SAD/backend/test/dai viet su ky toan thu-tap 1-340@.pdf"
-    asyncio.run(run_batch_completion(file_pdf))
-    # run_gemini()
+    # file_pdf= "/home/ngotrisi/OCR_SAD/backend/test/dai viet su ky toan thu-tap 1-340@.pdf"
+    # asyncio.run(run_batch_completion(file_pdf))
+    run_gemini()

@@ -5,6 +5,34 @@ from io import BytesIO
 from PIL import Image
 from pathlib import Path
 from pdf2image import convert_from_path
+
+
+PROMPT_TEXT: str = (
+    "Convert image to a clean HTML with inline or embedded CSS code. "
+    "Preserve the original layout, font sizes, positions, and formatting as accurately as possible. "
+    "For tabular data, use <table>, <thead>, <tbody>, <tr>, <th>, and <td> with correct rowspan/colspan to reflect merged cells. "
+    "Ensure the final HTML visually matches the original layout of the image, with consistent spacing, alignment, and structure."
+)
+
+PROMPT_TEXT_PDF: str = (
+    # Task
+    "You are given one **scanned page** from a PDF. "
+    "Re‑create that page as clean HTML with inline or embedded CSS. "
+    # Accuracy requirements
+    "Preserve original layout, reading order, font sizes, text positions, line breaks, "
+    "and any bold/italic/underline styling. "
+    "Correct small skew or noise typical of scans, but do NOT re‑flow or rewrite text. "
+    # Tables
+    "If you detect tabular data, use semantic elements "
+    "<table>, <thead>, <tbody>, <tr>, <th>, <td> and apply proper rowspan/colspan "
+    "so the table renders exactly like the source. "
+    # Images and graphics
+    "Embed non‑text graphics (e.g., logos, charts) as <img> with base64‑encoded data URI "
+    "or leave a clear HTML comment placeholder such as <!-- figure 1 here --> if extraction fails. "    
+    # Output format
+    "Return ONLY the HTML string (no markdown code fences) so it can be saved directly."
+)
+
 def extract_code_html(output:str) -> str:
     """
     Extract code html from a string containing a ```html ... ``` code block
@@ -55,7 +83,7 @@ def build_message_template_for_ocr(base64_images: List[str]) -> List[Dict[str,An
         message={
             "role": "user",
             "content": [
-                {"type": "text", "text": "Convert image to a clean HTML with inline or embedded CSS code."},
+                {"type": "text", "text": PROMPT_TEXT_PDF},
                 {
                     "type": "image_url",
                     "image_url": {

@@ -6,7 +6,9 @@ from typing import List
 from litellm import acompletion,batch_completion
 from litellm.utils import ModelResponse
 from config.model_config import load_api_key
-from .utils.code_utils import extract_code_html, image_to_base64,build_message_template_for_ocr
+from .utils.code_utils import extract_code_html, image_to_base64,build_message_template_for_ocr,PROMPT_TEXT
+
+
 from dotenv import load_dotenv
 load_dotenv(override=True)
 
@@ -20,11 +22,14 @@ ListGeminiModel=[
     'gemini/gemini-2.5-pro-preview-03-25' #paid
 ]
 
+
+
+
 def my_custom_logging_fn(model_call_dict):
     print(f"model call details: {model_call_dict}")
 
 def load_model():
-    model = ListGeminiModel[0]
+    model = ListGeminiModel[3]
     return model
 
 def temp_load_image(image_path:str) -> str:
@@ -39,7 +44,7 @@ async def get_ocr_response_for_image(image_path: str) -> ModelResponse:
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": "Convert image to a clean HTML with inline or embedded CSS code."},
+                {"type": "text", "text": PROMPT_TEXT},
                 {
                     "type": "image_url",
                     "image_url": {

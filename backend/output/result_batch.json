@@ -1,8 +1,8 @@
 [
     {
-        "id": "chatcmpl-9fced079-1c21-4cf7-a8e2-8caff86c23da",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
+        "id": "chatcmpl-fd229bc8-78df-46a2-95b5-b85949569081",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
         "object": "chat.completion",
         "system_fingerprint": null,
         "choices": [
@@ -10,7 +10,7 @@
                 "finish_reason": "stop",
                 "index": 0,
                 "message": {
-                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n    <style>\n        body {\n            font-family: sans-serif;\n        }\n        .container {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: center;\n            height: 100vh;\n        }\n        .title {\n            font-size: 4em;\n            font-weight: bold;\n        }\n        .subtitle {\n            font-size: 2em;\n            font-weight: bold;\n        }\n        .description {\n            text-align: center;\n            margin-top: 20px;\n        }\n        .info {\n            margin-top: 50px;\n        }\n        .info-item {\n            margin-bottom: 10px;\n        }\n        .logo {\n            margin-top: 50px;\n            width: 50px;\n            height: 50px;\n        }\n        .footer {\n            margin-top: 50px;\n            text-align: center;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"title\">ĐẠI VIỆT</div>\n        <div class=\"subtitle\">SỬ KÝ</div>\n        <div class=\"subtitle\">TOÀN THƯ</div>\n        <div class=\"description\">Bản in Nội các quan bản<br>MỘC BẢN KHẮC NĂM CHÍNH HÒA THỨ 18 (1697)</div>\n        <div class=\"info\">\n            <div class=\"info-item\"><strong>TẬP I</strong></div>\n            <div class=\"info-item\">Lời giới thiệu :<br>Giáo sư Viện sĩ : <strong>NGUYỄN KHANH TOÀN</strong></div>\n            <div class=\"info-item\">Khảo cứu về tác giả, văn bản, tác phẩm :<br>Giáo sư <strong>PHAN HUY LÊ</strong></div>\n            <div class=\"info-item\">Dịch và chú thích :<br><strong>NGÔ ĐỨC THỌ</strong></div>\n            <div class=\"info-item\">Hiệu đính :<br>Giáo sư <strong>HÀ VĂN TẤN</strong></div>\n        </div>\n        <img src=\"logo.png\" alt=\"Logo\" class=\"logo\">\n        <div class=\"footer\">NHÀ XUẤT BẢN KHOA HỌC XÃ HỘI<br>HÀ NỘI - 1998</div>\n    </div>\n</body>\n</html>\n```\n\n**Note:** Replace `\"logo.png\"` with the actual path or URL of the logo image. \n",
+                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Đại Việt Sử Ký Toàn Thư</title>\n    <style>\n        body {\n            font-family: 'Times New Roman', serif;\n            font-size: 16px; /* Base font size, adjust as needed */\n            line-height: 1.4;\n            margin: 0;\n            padding: 0;\n            background-color: #fff;\n        }\n        .page {\n            width: 800px; /* Approximate width for layout */\n            margin: 0 auto;\n            padding: 50px;\n            position: relative; /* Context for absolute positioning */\n            height: 1100px; /* Approximate height */\n        }\n        .center {\n            text-align: center;\n        }\n        .title-line1 {\n            font-size: 44px;\n            font-weight: bold;\n            position: absolute;\n            top: 170px;\n            left: 0;\n            right: 0;\n            text-align: center;\n            letter-spacing: 2px;\n        }\n        .title-line2 {\n            font-size: 44px;\n            font-weight: bold;\n            position: absolute;\n            top: 230px;\n            left: 0;\n            right: 0;\n            text-align: center;\n            letter-spacing: 2px;\n        }\n        .title-line3 {\n            font-size: 44px;\n            font-weight: bold;\n            position: absolute;\n            top: 295px;\n            left: 0;\n            right: 0;\n            text-align: center;\n            letter-spacing: 2px;\n        }\n        .subtitle1 {\n            font-size: 15px;\n            position: absolute;\n            top: 395px;\n            left: 0;\n            right: 0;\n            text-align: center;\n        }\n        .subtitle2 {\n            font-size: 15px;\n            font-style: italic;\n            position: absolute;\n            top: 415px;\n            left: 0;\n            right: 0;\n            text-align: center;\n            letter-spacing: 1px;\n        }\n        .volume {\n            font-size: 20px;\n            font-weight: bold;\n            position: absolute;\n            top: 480px;\n            left: 0;\n            right: 0;\n            text-align: center;\n        }\n        .credit-block {\n            position: absolute;\n            top: 525px;\n            left: 0;\n            right: 0;\n            text-align: center;\n            font-size: 14px;\n            line-height: 1.6;\n        }\n        .credit-label {\n            display: block;\n            margin-bottom: 2px;\n        }\n        .credit-name {\n            display: block;\n            font-weight: bold;\n            margin-bottom: 15px;\n            letter-spacing: 1px;\n        }\n        .logo {\n            position: absolute;\n            top: 730px;\n            left: 0;\n            right: 0;\n            text-align: center;\n        }\n        .logo img {\n            width: 65px; /* Adjust size as needed */\n            height: auto;\n        }\n        .publisher {\n            font-size: 20px;\n            font-weight: bold;\n            position: absolute;\n            top: 805px;\n            left: 0;\n            right: 0;\n            text-align: center;\n            letter-spacing: 1px;\n        }\n        .pub-location {\n            font-size: 16px;\n            font-weight: bold;\n            position: absolute;\n            top: 838px;\n            left: 0;\n            right: 0;\n            text-align: center;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"page\">\n        <div class=\"title-line1\">ĐẠI VIỆT</div>\n        <div class=\"title-line2\">SỬ KÝ</div>\n        <div class=\"title-line3\">TOÀN THƯ</div>\n\n        <div class=\"subtitle1\">Bản in Nội các quan bản</div>\n        <div class=\"subtitle2\">MỘC BẢN KHẮC NĂM CHÍNH HÒA THỨ 18 (1697)</div>\n\n        <div class=\"volume\">TẬP I</div>\n\n        <div class=\"credit-block\">\n            <span class=\"credit-label\">Lời giới thiệu :</span>\n            <span class=\"credit-name\">Giáo sư Viện sĩ : NGUYỄN KHÁNH TOÀN</span>\n\n            <span class=\"credit-label\">Khảo cứu về tác giả, văn bản, tác phẩm :</span>\n            <span class=\"credit-name\">Giáo sư PHAN HUY LÊ</span>\n\n            <span class=\"credit-label\">Dịch và chú thích :</span>\n            <span class=\"credit-name\">NGÔ ĐỨC THỌ</span>\n\n            <span class=\"credit-label\">Hiệu đính :</span>\n            <span class=\"credit-name\">Giáo sư HÀ VĂN TẤN</span>\n        </div>\n\n        <div class=\"logo\">\n            <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVHhe7dpNcsIwEAVgZ4+K17Wp61rVjSiS1tM972e9b3m2h16kEAj9oDckB4pDcagOFIfiUByKQ3GoDsWhOBSH4lAchkP+xP59kG+49Hj2GZ3729vbx0P/rD0+z886/03H48z8X57nh+Fw+NnQvL4qDkU+y97epmP93Jp+l9Pp9KRh+Lg8Bf367e2tTcNf/n6/X7sM51X9f36YyP0qDkW+z26326bhs1+vx8M5T6fTD8P5/VvWn5bL9+pI6PjRHAp9k3g8PmoY7uv1etpwPNd1vV6vPQbn2/m3n/f7l9H+sL8qDsWhOBRHC4f9vYq4T5qG++1+u3YY7u/3e/7sV4L0y3EoDub2M5H5+6u+N+1zM3G73XY+3m8p9t9uDkW+S24OZX7N/h34q/r9Pj/P9186vT4Vh6Ifp3wOB/2t2u02n49z670/X0H/qjgUhyKQ3Bwc+j/Lp3+Uj88Ld5cO/a+991Ucin2V6/W6tS/w+Xyu63o8Hn858iU943d1X4pDsS9T+0H++x0Ox61tOJx6+u3h9+v1utkP9v3PcSgOxWv939PpdOrxePzn+H3+43099c/H43F/7+H8yv7+63Ao9lXq9XpqGDb9fr/dDuf3e37l/2r0t857+9/H4f/3/t4P51ec/8H5VxyKfZZcX6u+N1+v12nD8bT+c3Eol9/zWw14xKF41E+v8d/1/LzKhyKQ3GoDsWhOBSH4lAcikNxKA7FoTgUh+JQHIpDcSgOxWH4z3E4r/b7fT/v19J+/3I+73/5n48P/c/V8fGjORSH4lAcikNxqA7FoTgUh+JQHIpDcSgOxQ+h20dYp3B7cQAAAABJRU5ErkJggg==\" alt=\"Publisher Logo\">\n        </div>\n\n        <div class=\"publisher\">NHÀ XUẤT BẢN KHOA HỌC XÃ HỘI</div>\n        <div class=\"pub-location\">HÀ NỘI - 1998</div>\n    </div>\n</body>\n</html>\n```",
                     "role": "assistant",
                     "tool_calls": null,
                     "function_call": null
@@ -18,9 +18,9 @@
             }
         ],
         "usage": {
-            "completion_tokens": 703,
-            "prompt_tokens": 272,
-            "total_tokens": 975,
+            "completion_tokens": 3346,
+            "prompt_tokens": 433,
+            "total_tokens": 3779,
             "completion_tokens_details": null,
             "prompt_tokens_details": {
                 "audio_tokens": null,
@@ -28,33 +28,14 @@
             }
         },
         "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
-                }
-            ]
-        ],
+        "vertex_ai_safety_results": [],
         "vertex_ai_citation_metadata": [
             {
                 "citationSources": [
                     {
-                        "startIndex": 222,
-                        "endIndex": 480,
-                        "uri": "https://github.com/lyrxsu/text-to-json",
+                        "startIndex": 8427,
+                        "endIndex": 8562,
+                        "uri": "https://github.com/pnp/sp-dev-fx-webparts",
                         "license": ""
                     }
                 ]
@@ -62,9 +43,9 @@
         ]
     },
     {
-        "id": "chatcmpl-9659ba4e-b6fd-420c-bdef-5530d2c7153c",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
+        "id": "chatcmpl-8cf4d767-dc5d-4f4c-b7ee-e483a157d81e",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
         "object": "chat.completion",
         "system_fingerprint": null,
         "choices": [
@@ -72,7 +53,7 @@
                 "finish_reason": "stop",
                 "index": 0,
                 "message": {
-                    "content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title></title>\n  <style>\n    body {\n      font-family: sans-serif;\n      text-align: center;\n    }\n  </style>\n</head>\n<body>\n\n<h1>HỘI ĐỒNG CHỈ ĐẠO VÀ DUYỆT</h1>\n\n<p>Chủ tịch :<br>\n  <b>NGUYỄN KHÁNH TOÀN</b><br>\n  Giáo sư Viện sĩ\n</p>\n\n<p>Ủy viên :<br>\n  <b>PHAN HUY LÊ</b><br>\n  Giáo sư sử học Đại học tổng hợp Hà Nội\n</p>\n\n<p><b>NGUYỄN ĐỨC DIỆU</b><br>\n  Giám đốc Tổng biên tập<br>\n  Nhà xuất bản Khoa học xã hội\n</p>\n\n</body>\n</html>\n```",
+                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Scanned Page</title>\n    <style>\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: serif;\n            line-height: 1.2;\n        }\n        .page {\n            position: relative;\n            width: 827px; /* Approximate width based on common scan resolution */\n            height: 1169px; /* Approximate height */\n            background-color: white;\n        }\n        .text {\n            position: absolute;\n            white-space: pre;\n            margin: 0;\n            padding: 0;\n            font-size: 12pt; /* Default size, adjust as needed */\n            color: black;\n        }\n        .bold {\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"page\">\n        <p class=\"text bold\" style=\"top: 392px; left: 325px; font-size: 14pt;\">HỘI ĐỒNG CHỈ ĐẠO VÀ DUYỆT</p>\n        <p class=\"text\" style=\"top: 467px; left: 459px; font-size: 13pt;\">Chủ tịch :</p>\n        <p class=\"text\" style=\"top: 485px; left: 388px; font-size: 13pt;\">NGUYỄN KHÁNH TOÀN</p>\n        <p class=\"text\" style=\"top: 503px; left: 429px; font-size: 13pt;\">Giáo sư Viện sĩ</p>\n        <p class=\"text\" style=\"top: 578px; left: 461px; font-size: 13pt;\">Ủy viên :</p>\n        <p class=\"text\" style=\"top: 596px; left: 419px; font-size: 13pt;\">PHAN HUY LÊ</p>\n        <p class=\"text\" style=\"top: 614px; left: 314px; font-size: 13pt;\">Giáo sư sử học Đại học tổng hợp Hà Nội</p>\n        <p class=\"text\" style=\"top: 659px; left: 393px; font-size: 13pt;\">NGUYỄN ĐỨC DIỆU</p>\n        <p class=\"text\" style=\"top: 677px; left: 396px; font-size: 13pt;\">Giám đốc Tổng biên tập</p>\n        <p class=\"text\" style=\"top: 695px; left: 363px; font-size: 13pt;\">Nhà xuất bản Khoa học xã hội</p>\n    </div>\n</body>\n</html>\n```",
                     "role": "assistant",
                     "tool_calls": null,
                     "function_call": null
@@ -80,9 +61,9 @@
             }
         ],
         "usage": {
-            "completion_tokens": 229,
-            "prompt_tokens": 272,
-            "total_tokens": 501,
+            "completion_tokens": 1272,
+            "prompt_tokens": 433,
+            "total_tokens": 1705,
             "completion_tokens_details": null,
             "prompt_tokens_details": {
                 "audio_tokens": null,
@@ -90,32 +71,13 @@
             }
         },
         "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
-                }
-            ]
-        ],
+        "vertex_ai_safety_results": [],
         "vertex_ai_citation_metadata": []
     },
     {
-        "id": "chatcmpl-262fd0f1-b352-4d4b-acca-49f938a7e889",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
+        "id": "chatcmpl-28c88676-d020-45a3-a573-0d60fdf06542",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
         "object": "chat.completion",
         "system_fingerprint": null,
         "choices": [
@@ -123,7 +85,7 @@
                 "finish_reason": "stop",
                 "index": 0,
                 "message": {
-                    "content": "```html\n<div style=\"margin: 0 auto; width: 600px; text-align: justify;\">\n  <p style=\"text-align: center; font-weight: bold; font-size: 18px;\">LỜI NHÀ XUẤT BẢN</p>\n  <p style=\"text-indent: 2em;\">NĂM 1967, Nhà xuất bản Khoa học xã hội đã xuất bản bộ <i>Đại Việt sử ký toàn thư</i> gồm 4 tập do nhà Hàn học Cao Huy Giu dịch và Giáo sư Đào Duy Anh hiệu đính. Đó là một bộ sử lớn, có giá trị, được biên soạn qua nhiều đời, gắn liền với tên tuổi của những nhà sử học nổi tiếng ngay xưa như Lê Văn Hưu thế kỷ XIII, Phan Phu Tiên, Ngô Sĩ Liên thế kỷ XV, Phạm Công Trứ, Lê Hy thế kỷ XVII…</p>\n  <p style=\"text-indent: 2em;\">Năm 1971, bộ sử được tái bản lần thứ ba, sau đó một thời gian, nhiều bạn đọc yêu thích sử học, nhiều cán bộ nghiên cứu và giảng dạy thuộc nhiều ngành, nhiều cơ quan đã yêu cầu chúng tôi tái bản thư ba bộ sử ấy.</p>\n  <p style=\"text-indent: 2em;\">Giữa lúc đó thì Giáo sư sử học Phan Huy Lê, sau chuyến đi công tác ở Pháp về, cho chúng tôi biết việc phát hiện ra bản in xưa nhất của bộ <i>Đại Việt sử ký toàn thư</i> bản in đời Giáo sư bèn vạch  vươn lên sao chụp bản ấy ở Nội các quan đàm, và nươc. Đây là bản in theo dung khác năm Chính Hòa thứ 18, tức năm 1697, còn được lưu giữ tại Thư viện của Hội Á châu ở Paris.</p>\n  <p style=\"text-indent: 2em;\">Năm 1985, theo đề nghị của Ủy ban Khoa học xã hội Việt Nam, bà C. Rageau, Giám đốc Thư viện trường Viễn Đông bác cổ (EFEO), đã đem sang tặng Việt Nam bộ vi phim (microfilm) bản in đời quan đàm của toàn quyển sử ký toàn thư đang lưu giữ ở Paris và Nội các cho Viện Nam được toàn quyền sử dụng văn bản này.</p>\n  <p style=\"text-indent: 2em;\">Chứng tôi đã báo cáo lên Ủy ban Khoa học xã hội Việt Nam (Viện Khoa học xã hội Việt Nam hiện nay) và đề nghị cho tổ chức nghiên cứu, phiên dịch và xuất bản kịp thời bộ <i>Đại Việt sử ký toàn thư</i>  căn cứ trên bản in Nội các quan bản được in từ văn bản năm Chính Hòa 18 (1697). Sau khi đề nghị trên được chấp nhận, một Hội đồng chỉ đạo đã được thành lập, gồm:</p>\n  <p style=\"text-indent: 2em;\">Chủ tịch : - Giáo sư sử học Nguyễn Khánh Toan.</p>\n  <p style=\"text-indent: 2em;\">Ủy viên : - Giáo sư Viện sĩ Phan Huy Lê,</p>\n  <p style=\"text-indent: 6em;\">- Giám đốc kiêm Tổng biên tập Nhà xuất bản Khoa học xã hội Phạm Hữu.</p>\n  <p style=\"text-indent: 2em;\">Sau khi ông Phạm Hữu nghỉ hưu, ông Nguyễn Đức Diều giữ chức Giám đốc kiêm Tổng biên tập Nhà xuất bản Khoa học xã hội đã tham gia Hội đồng chỉ đạo với cương vị ủy viên thay thế ông Phạm Hữu.</p>\n  <p style=\"text-indent: 2em;\"><i>Đại Việt sử ký toàn thư</i> là một bộ sử có giá trị về nhiều mặt, là một di sản quý báu của nền văn hóa dân tộc. Dưới sự chỉ đạo của Hội đồng, chúng tôi thấy có nhiệm vụ phải cố gắng làm sao để cho phiên dịch, xuất bản này xứng đáng với vị trí và giá trị của bộ sử. Vì vậy, công trình, chúng tôi có tham khảo và kế thừa bản dịch cũ, nhưng phải dịch lại trực tiếp từ văn bản mới phát hiện. Chúng tôi cũng mong muốn bản dịch mới tiếp thu những thành tựu mới về ngôn ngữ tiếng Việt và dịch thuật Hán trong thời gian gần đây.</p>\n</div>\n```",
+                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>LỜI NHÀ XUẤT BẢN</title>\n    <style>\n        body {\n            font-family: serif;\n            line-height: 1.6;\n            padding: 40px 60px; /* Approximate margins */\n            font-size: 14pt; /* Base font size, adjust as needed */\n        }\n        .page-container {\n            position: relative; /* Allows absolute positioning for precise layout if needed */\n            width: 100%; /* Or fixed width like 650px */\n        }\n        .title {\n            text-align: center;\n            font-weight: bold;\n            font-size: 1.5em; /* Larger than body text */\n            margin-top: 50px;\n            margin-bottom: 50px;\n            letter-spacing: 1px; /* Slight letter spacing */\n        }\n        p {\n            margin-top: 0;\n            margin-bottom: 1em;\n            text-align: justify;\n        }\n        .dropcap {\n            font-size: 4.5em; /* Large drop cap */\n            float: left;\n            line-height: 0.8em; /* Adjust vertical alignment */\n            margin-right: 8px;\n            margin-top: 9px; /* Adjust vertical alignment */\n            font-weight: normal;\n            padding: 0;\n        }\n        .bold {\n            font-weight: bold;\n        }\n        .list-section {\n            margin-left: 40px;\n            margin-top: 20px;\n            margin-bottom: 20px;\n            line-height: 1.5;\n            text-align: left; /* Override justify for list */\n        }\n        .list-entry {\n             position: relative;\n             padding-left: 95px; /* Indentation for names */\n             margin-bottom: 8px; /* Space between list entries */\n             min-height: 1.5em; /* Ensure space for label */\n        }\n        .list-label {\n            position: absolute;\n            left: 0;\n            top: 0;\n            width: 90px; /* Width for label + colon */\n            display: inline-block; /* Or block */\n        }\n        .list-content p {\n            margin: 0;\n            text-align: left;\n            padding-left: 4px; /* Small space after hyphen */\n        }\n        .indented-line {\n            padding-left: 12px; /* Indentation for second line of Pham Huu */\n        }\n    </style>\n</head>\n<body>\n<div class=\"page-container\">\n\n<p class=\"title\">LỜI NHÀ XUẤT BẢN</p>\n\n<p><span class=\"dropcap\">N</span><span class=\"bold\">ĂM 1967, Nhà xuất bản Khoa học xã hội đã xuất bản bộ Đại Việt sử<br>\nký toàn thư gồm 4 tập do nhà Hán học Cao Huy Giu dịch và Giáo sư<br>\nĐào Duy Anh hiệu đính. Đó là một bộ sử lớn, có giá trị, được biên soạn qua<br>\nnhiều đời, gắn liền với tên tuổi của những nhà sử học nổi tiếng ngày xưa<br>\nnhư Lê Văn Hưu thế kỷ XIII, Phan Phu Tiên, Ngô Sĩ Liên thế kỷ XV, Phạm<br>\nCông Trứ, Lê Hy thế kỷ XVII...</span></p>\n\n<p>Năm 1971, bộ sử đó được tái bản lần thứ hai, có sửa chữa và bổ sung.<br>\nSau đó một thời gian, nhiều bạn đọc yêu thích lịch sử dân tộc, nhiều nhà<br>\nsử học, nhiều cán bộ nghiên cứu và giảng dạy thuộc nhiều ngành, nhiều cơ<br>\nquan đã yêu cầu chúng tôi tái bản lần thứ ba bộ sử ấy.</p>\n\n<p>Giữa lúc đó thì Giáo sư sử học Phan Huy Lê, sau chuyến đi công tác ở Pháp<br>\nvề, cho chúng tôi biết việc phát hiện ra bản in xưa nhất của bộ <span class=\"bold\">Đại Việt sử<br>\nký toàn thư</span>, bản <span class=\"bold\">Nội các quan bản</span>, và vui lòng cho chúng tôi sử dụng bản<br>\nsao chụp bản in ấy do Giáo sư đem về nước. Đấy là bản in theo ván khắc<br>\nnăm Chính Hòa thứ 18, tức năm 1697, còn được lưu giữ tại Thư viện của Hội<br>\nÁ châu ở Paris.</p>\n\n<p>Năm 1985, theo đề nghị của Ủy ban Khoa học xã hội Việt Nam, bà C. Rageau,<br>\nGiám đốc Thư viện Trường Viễn Đông bác cổ (EFEO), đã đem sang tặng Việt<br>\nNam bộ vi phim (microfilm) bản in <span class=\"bold\">Nội các quan bản</span> của <span class=\"bold\">Đại Việt sử ký<br>\ntoàn thư</span> đang lưu giữ ở Paris và đồng ý cho Việt Nam được toàn quyền sử<br>\ndụng văn bản này.</p>\n\n<p>Chúng tôi đã báo cáo lên Ủy ban Khoa học xã hội Việt Nam (Viện Khoa học<br>\nxã hội Việt Nam hiện nay) và đề nghị cho tổ chức nghiên cứu, phiên dịch và<br>\nxuất bản kịp thời bộ <span class=\"bold\">Đại Việt sử ký toàn thư</span> căn cứ trên bản in <span class=\"bold\">Nội các<br>\nquan bản</span> được in từ ván khắc năm Chính Hòa 18 (1697). Sau khi đề nghị<br>\ntrên được chấp nhận, một Hội đồng chỉ đạo đã được thành lập, gồm :</p>\n\n<div class=\"list-section\">\n    <div class=\"list-entry\">\n        <span class=\"list-label\">Chủ tịch :</span>\n        <div class=\"list-content\"><p>- Giáo sư Viện sĩ <span class=\"bold\">Nguyễn Khánh Toàn</span>.</p></div>\n    </div>\n    <div class=\"list-entry\">\n        <span class=\"list-label\" style=\"vertical-align: top;\">Ủy viên :</span>\n        <div class=\"list-content\">\n            <p>- Giáo sư sử học <span class=\"bold\">Phan Huy Lê</span>,</p>\n            <p>- Giám đốc kiêm Tổng biên tập Nhà xuất bản Khoa học</p>\n            <p class=\"indented-line\">xã hội <span class=\"bold\">Phạm Hựu</span>.</p>\n        </div>\n    </div>\n</div>\n\n<p>Sau khi ông Phạm Hựu nghỉ hưu, ông Nguyễn Đức Diệu giữ chức Giám<br>\nđốc kiêm Tổng biên tập Nhà xuất bản Khoa học xã hội đã tham gia Hội đồng<br>\nchỉ đạo với cương vị ủy viên thay thế ông Phạm Hựu.</p>\n\n<p><span class=\"bold\">Đại Việt sử ký toàn thư</span> là một bộ sử có giá trị về nhiều mặt, là một<br>\ndi sản quý báu của nền văn hóa dân tộc. Dưới sự chỉ đạo của Hội đồng, chúng<br>\ntôi thấy có nhiệm vụ phải cố gắng làm sao để cho công trình xuất bản này<br>\nxứng đáng với vị trí và giá trị của bộ sử. Về mặt phiên dịch, chúng tôi có<br>\ntham khảo và kế thừa bản dịch cũ, nhưng phải dịch lại trực tiếp từ văn bản<br>\nmới phát hiện. Chúng tôi cũng mong muốn bản dịch mới tiếp thu những thành<br>\ntựu mới về ngôn ngữ tiếng Việt và dịch thuật chữ Hán trong thời gian gần</p>\n\n</div>\n</body>\n</html>\n```",
                     "role": "assistant",
                     "tool_calls": null,
                     "function_call": null
@@ -131,9 +93,9 @@
             }
         ],
         "usage": {
-            "completion_tokens": 972,
-            "prompt_tokens": 272,
-            "total_tokens": 1244,
+            "completion_tokens": 5072,
+            "prompt_tokens": 433,
+            "total_tokens": 5505,
             "completion_tokens_details": null,
             "prompt_tokens_details": {
                 "audio_tokens": null,
@@ -141,57 +103,100 @@
             }
         },
         "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
+        "vertex_ai_safety_results": [],
+        "vertex_ai_citation_metadata": []
+    },
+    {
+        "id": "chatcmpl-66aac8ac-0b00-452f-b15a-ca363f1e88d3",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
+        "object": "chat.completion",
+        "system_fingerprint": null,
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "message": {
+                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Page 6</title>\n    <style>\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: 'Times New Roman', Times, serif;\n            background-color: #fff;\n        }\n        .page {\n            position: relative;\n            width: 800px; /* Approximate width based on typical scan */\n            margin: 0 auto;\n            padding: 50px;\n        }\n        div {\n            position: absolute;\n            white-space: pre; /* Preserve spaces and line breaks */\n            font-size: 13.5px; /* Base font size, adjust as needed */\n            line-height: 1.5;\n        }\n        .header {\n            font-weight: bold;\n            font-size: 13px; /* Slightly smaller? */\n        }\n        .pagenum {\n            font-size: 13px;\n        }\n        .bold-italic {\n            font-weight: bold;\n            font-style: italic;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"page\">\n        <div class=\"pagenum\" style=\"top: 87px; left: 100px;\">6</div>\n        <div class=\"header\" style=\"top: 87px; left: 391px;\">LỜI NHÀ XUẤT BẢN</div>\n\n        <div style=\"top: 130px; left: 100px;\">đây, vừa tôn trọng ở mức độ cao nhất nội dung và phong cách của bộ sử đã\nra đời cách đây gần 300 năm, vừa làm sao cho bạn đọc dù không biết chữ\nHán vẫn hiểu được nội dung bộ sử đến mức tốt nhất.</div>\n\n        <div style=\"top: 193px; left: 100px;\">Công trình xuất bản <span class=\"bold-italic\">Đại Việt sử ký toàn thư</span> gồm 4 tập :</div>\n\n        <div style=\"top: 221px; left: 100px;\"><span class=\"bold-italic\">Tập I</span> gồm Lời Nhà xuất bản Khoa học xã hội, Lời giới thiệu của Giáo\nsư Viện sĩ Nguyễn Khánh Toàn, bài Khảo cứu về \"Đại Việt sử ký toàn thư :\ntác giả - văn bản - tác phẩm\" của Giáo sư Phan Huy Lê và bản dịch phần đầu\n<span class=\"bold-italic\">Đại Việt sử ký toàn thư</span> gồm Quyển thủ, Ngoại kỷ Q.1 - 5, Bản kỷ Q.1 - 4,\ndo nhà nghiên cứu Hán Nôm Ngô Đức Thọ dịch, chú giải, và Giáo sư Hà Văn\nTấn hiệu đính.</div>\n\n        <div style=\"top: 324px; left: 100px;\"><span class=\"bold-italic\">Tập II</span> gồm phần dịch và chú giải Bản kỷ Q.5 - 13 do nhà nghiên cứu Hán\nNôm Hoàng Văn Lâu dịch, Giáo sư Hà Văn Tấn hiệu đính.</div>\n\n        <div style=\"top: 366px; left: 100px;\"><span class=\"bold-italic\">Tập III</span> gồm phần dịch và chú giải Bản kỷ Q.14 - 19 do nhà nghiên cứu\nHán Nôm Hoàng Văn Lâu dịch, Giáo sư Hà Văn Tấn hiệu đính và phần Phụ\nlục với bản dịch Đại Việt sử ký tục biên Q.20 - 21 của Phạm Công Trứ do\nnhà nghiên cứu Hán Nôm Ngô Thế Long thực hiện và Sách dẫn để tra cứu\ndo Bộ môn phương pháp luận sử học thuộc Khoa sử Trường Đại học tổng hợp\nHà Nội thực hiện.</div>\n\n        <div style=\"top: 470px; left: 100px;\"><span class=\"bold-italic\">Tập IV</span> in lại bản chụp nguyên văn chữ Hán bản in Nội các quan bản bộ\n<span class=\"bold-italic\">Đại Việt sử ký toàn thư</span>.</div>\n\n        <div style=\"top: 512px; left: 100px;\">Tập I đã xuất bản năm 1983, tập II năm 1985, trong điều kiện ấn loát chưa\nđược tốt lắm. Vì vậy, theo quyết định của Hội đồng chỉ đạo, năm 1992 chúng\ntôi in lại tập I, tập II có sửa chữa và in tiếp tập III, IV.</div>\n\n        <div style=\"top: 574px; left: 100px;\">Nhà xuất bản Khoa học xã hội xin trân trọng và vui mừng giới thiệu với\nbạn đọc công trình xuất bản bộ <span class=\"bold-italic\">Đại Việt sử ký toàn thư</span>.</div>\n\n        <div style=\"top: 616px; left: 100px;\">Nhân đây, chúng tôi xin chân thành cảm ơn Hội đồng chỉ đạo do Giáo sư\nViện sĩ Nguyễn Khánh Toàn làm Chủ tịch, cảm ơn sự tin cậy và cộng tác tích\ncực của Giáo sư Phan Huy Lê, Giáo sư Hà Văn Tấn, sự làm việc hết lòng của\ncác nhà nghiên cứu Hán Nôm Ngô Đức Thọ, Hoàng Văn Lâu, Ngô Thế Long\nvà các cán bộ biên tập Lê Văn Quýnh, Nguyễn Duy Chiếm.</div>\n\n        <div style=\"top: 700px; left: 100px;\">Cũng nhân dịp bộ <span class=\"bold-italic\">Đại Việt sử ký toàn thư</span> ra mắt, chúng tôi xin trân\ntrọng cảm ơn Thư viện Hội Á châu, Trường Viễn Đông bác cổ, Trường Đại\nhọc Paris VII, Hội Khoa học xã hội của người Việt Nam tại Pháp và Giáo sư\nsử học lão thành Hoàng Xuân Hãn, nhà nghiên cứu Hán Nôm Tạ Trọng Hiệp,\ncác nhà khoa học người Việt Nam và người Pháp ở Paris trước đây đã nhiệt\ntình giúp đỡ Giáo sư Phan Huy Lê trong việc nghiên cứu và sao chụp bản <span class=\"bold-italic\">Đại\nViệt sử ký toàn thư</span> ở Pháp, nay tiếp tục giúp đỡ chúng tôi trong việc chụp\nlại và công bố văn bản đó. Chúng tôi trân trọng cảm ơn bà Vân Bùi Mộng Hùng,\nGiám đốc Nhà xuất bản Chân Mây Médiapoly đã hết lòng cộng tác giúp đỡ chúng\ntôi sao chụp và thu nhỏ, làm chế bản bản in Nội các quan bản bộ <span class=\"bold-italic\">Đại Việt\nsử ký toàn thư</span> để xuất bản tập IV.</div>\n\n        <div style=\"top: 887px; left: 100px;\">Chúng tôi xin trân trọng cảm ơn Ủy ban quốc gia UNESCO Việt Nam, nhà\nthơ Cù Huy Cận đã quan tâm giúp đỡ chúng tôi và đặc biệt trân trọng cảm ơn\nông Tổng Giám đốc UNESCO (Paris) đã tài trợ cho công trình xuất bản bộ <span class=\"bold-italic\">Đại\nViệt sử ký toàn thư</span> này, nhằm bảo vệ và phát huy một di sản quý giá của\nnền văn hóa truyền thống của dân tộc Việt Nam.</div>\n\n    </div>\n</body>\n</html>\n```",
+                    "role": "assistant",
+                    "tool_calls": null,
+                    "function_call": null
                 }
-            ]
+            }
         ],
+        "usage": {
+            "completion_tokens": 3690,
+            "prompt_tokens": 433,
+            "total_tokens": 4123,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": {
+                "audio_tokens": null,
+                "cached_tokens": null
+            }
+        },
+        "vertex_ai_grounding_metadata": [],
+        "vertex_ai_safety_results": [],
         "vertex_ai_citation_metadata": [
             {
                 "citationSources": [
                     {
-                        "startIndex": 298,
-                        "endIndex": 472,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "startIndex": 8341,
+                        "endIndex": 8549,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
                         "license": ""
                     },
                     {
-                        "startIndex": 861,
-                        "endIndex": 996,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "startIndex": 8608,
+                        "endIndex": 8745,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
                         "license": ""
                     },
                     {
-                        "startIndex": 1610,
-                        "endIndex": 1774,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "startIndex": 9049,
+                        "endIndex": 9174,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
                         "license": ""
                     },
                     {
-                        "startIndex": 2315,
-                        "endIndex": 2452,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "startIndex": 9111,
+                        "endIndex": 9411,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
                         "license": ""
                     },
                     {
-                        "startIndex": 2780,
-                        "endIndex": 2987,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
+                        "startIndex": 9676,
+                        "endIndex": 9887,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 10152,
+                        "endIndex": 10492,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 10621,
+                        "endIndex": 10894,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 10805,
+                        "endIndex": 10998,
+                        "uri": "https://giaotrinhpdf.com/dai-viet-su-ky-toan-thu-tap-1.html",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 11064,
+                        "endIndex": 11308,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
+                        "license": ""
+                    },
+                    {
+                        "startIndex": 11466,
+                        "endIndex": 11680,
+                        "uri": "http://isach.info/story.php?story=dai_viet_su_ky_toan_thu&chapter=0003",
                         "license": ""
                     }
                 ]
@@ -199,9 +204,9 @@
         ]
     },
     {
-        "id": "chatcmpl-ce9c6cfb-e47f-4a9f-b8f2-92cbf2058c14",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
+        "id": "chatcmpl-41c85739-b67c-44e4-bf95-ae22d585978d",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
         "object": "chat.completion",
         "system_fingerprint": null,
         "choices": [
@@ -209,7 +214,7 @@
                 "finish_reason": "stop",
                 "index": 0,
                 "message": {
-                    "content": "```html\n<p style=\"line-height: 1.5; margin-bottom: 0pt;\" align=\"center\"><font style=\"font-size: 14pt;\">LỜI NHÀ XUẤT BẢN</font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">đây, vừa tôn trọng ở mức độ cao nhất nội dung và phong cách của bố sử đã ra đời cách đây gần 300 năm, vừa làm sao cho bạn đọc dù không biết chữ Hán vẫn hiểu được nội dung bố sử đến mức tốt nhất. </font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Công trình xuất bản <i>Đại Việt sử ký toàn thư</i> gồm 4 tập : </font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Tập I gồm Lời Nhà xuất bản khoa học xã hội, Lời giới thiệu của Giáo sư Viện sĩ Nguyễn Khánh Toàn, bài Khảo cứu về “Đại Việt sử ký toàn thư : tác giả - văn bản - tác phẩm” của Giáo sư Phan Huy Lê và bản dịch phần đầu <i>Đại Việt sử ký toàn thư</i> gồm Quyển thứ I, Ngoại kỷ Q.1 - 5, Bản kỷ Q.1 - 4, do nhà nghiên cứu Hán Nôm Ngô Đức Thọ dịch, chú giải, và Giáo sư Hà Văn Tấn hiệu đính. </font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Tập II gồm phần dịch và chú giải Bản kỷ Q.5 - 13 do nhà nghiên cứu Hán Nôm Hoàng Văn Lâu dịch, Giáo sư Hà Văn Tấn hiệu đính. </font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Tập III gồm phần dịch và chú giải Bản kỷ Q.14 - 19 do nhà nghiên cứu Hán Nôm Hoàng Văn Lâu dịch, Giáo sư Hà Văn Tấn hiệu đính và phần Phụ lục với bản dịch <i>Đại Việt sử ký tục biên</i> Q.20 - 21 của Phạm Công Trứ do nhà nghiên cứu Hán Nôm Ngô Thế Long thực hiện và Sách dẫn để tra cứu do Bộ môn phương pháp luận sử học thuộc Khoa sử Trường Đại học tổng hợp Hà Nội thực hiện.</font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Tập IV in lại bản chụp nguyên văn chữ Hán bản in <i>Nội các quan bản bộ Đại Việt sử ký toàn thư</i>.</font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Tập I đã xuất bản năm 1983, tập II năm 1985, trong điều kiện ấn loát chưa được tốt lắm. Vì vậy, theo quyết định của Hội đồng chỉ đạo, năm 1992 chúng tôi in lại tập I, tập II có sửa chữa và in tiếp tập III, IV. </font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Nhân xuất bản Khoa học xã hội xin trân trọng giới thiệu với bạn đọc công trình xuất bản bộ <i>Đại Việt sử ký toàn thư</i>.</font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Nhân đây, chúng tôi xin chân thành cảm ơn đối với đạo giáo Giáo sư Viện sĩ Nguyễn Khánh Toàn làm Chủ tịch, cảm ơn sự tin cậy và cộng tác tích cực của Giáo sư Phan Huy Lê, Giáo sư Hà Văn Tấn, sư lâm việc hết lòng của các nhà nghiên cứu Hán Nôm Ngô Đức Thọ, Hoàng Văn Lâu, Ngô Thế Long và các cán bộ biên tập Lê Văn Quỳnh, Nguyễn Duy Chiếm.</font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Cũng nhân dịp bổ <i>Đại Việt sử ký toàn thư </i>ra mắt bạn đọc, chúng tôi xin trân trọng cảm ơn thư viện Hội Á châu, Trường Viễn Đông Bắc cổ, Trường Đại học Paris VII, Hội Khoa học xã hội của người Việt Nam tại Pháp và Giáo sư các nhà khoa học người Việt Nam và người Pháp ở Paris trước đây đã nhiệt tình giúp đỡ Giáo sư Phan Huy Lê trong việc nghiên cứu và sao chụp bản <i>Đại Việt sử ký toàn thư </i>ở Pháp, nay tiếp tục giúp đỡ chúng tôi trong việc chụp lại và công bố văn bản đó. Chúng tôi trân trọng cảm ơn bà Bùi Mộng Hùng, Giám đốc Nhà xuất bản Chân Mây Mediapoly đã hết lòng cộng tác giúp đỡ chúng tôi sao chụp và thu nhỏ, xuất bản chế bản in <i>Nội các quan bản bộ Đại Việt sử ký toàn thư </i>để xuất bản tập IV.</font></p>\n<p style=\"text-indent: 30pt; line-height: 1.5; margin-bottom: 0pt;\"><font style=\"font-size: 14pt;\">Chúng tôi xin trân trọng cảm ơn Ủy ban quốc gia UNESCO Việt Nam, nhà thơ Chủ Huy Cận đã quan tâm giúp đỡ chúng tôi và đặc biệt trân trọng cảm ơn Tổng giám đốc UNESCO (Paris), đã tài trợ cho công trình xuất bản bộ <i>Đại Việt sử ký toàn thư </i>này, nhằm bảo vệ và phát huy một di sản quý giá của nền văn hóa truyền thống của dân tộc Việt Nam.</font></p>\n```",
+                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>LỜI GIỚI THIỆU</title>\n    <style>\n        body {\n            font-family: 'Times New Roman', Times, serif;\n            line-height: 1.6;\n            margin: 50px 80px; /* Approximate margins from the image */\n            background-color: #fff; /* Assuming white background */\n            color: #000; /* Assuming black text */\n        }\n        .page-container {\n            width: 600px; /* Approximate width based on typical scan */\n            margin: auto;\n        }\n        .title {\n            font-size: 1.5em; /* Larger font size */\n            font-weight: bold;\n            text-align: center;\n            margin-bottom: 1em;\n            letter-spacing: 2px; /* Wide letter spacing */\n        }\n        .author {\n            font-size: 0.9em; /* Smaller font size */\n            font-weight: bold;\n            text-align: right;\n            margin-bottom: 3em; /* Space between author and main text */\n        }\n        p {\n            text-align: justify;\n            margin-bottom: 1.2em; /* Spacing between paragraphs */\n            font-size: 1em; /* Base font size */\n            text-indent: 2em; /* Standard paragraph indentation */\n        }\n        .first-paragraph {\n            text-indent: 0; /* No indent for the first paragraph */\n        }\n        .drop-cap {\n            float: left;\n            font-size: 4.5em; /* Large drop cap */\n            line-height: 0.8em; /* Adjust line height for alignment */\n            margin-right: 0.1em; /* Space after drop cap */\n            margin-top: 0.1em; /* Adjust top margin */\n            font-weight: normal; /* Ensure dropcap isn't bold unless intended */\n        }\n        /* Italic text if needed */\n        i, em {\n            font-style: italic;\n        }\n        /* Bold text if needed */\n        b, strong {\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"page-container\">\n\n        <div class=\"title\">LỜI GIỚI THIỆU</div>\n        <div class=\"author\">NGUYỄN KHÁNH TOÀN</div>\n\n        <p class=\"first-paragraph\">\n            <span class=\"drop-cap\">M</span>ỘT dân tộc có nền văn hưu{ lâu đời bao giờ cũng trọng thị, giữ gìn,<br>\n            coi như thiêng liêng những di tích của nó, đặc biệt là dấu tích của những<br>\n            sự nghiệp anh hùng và quang linh của ông cha, nòi giống, những gì nhắc lại<br>\n            những kỳ công của các bậc tiền bối trong cuộc đấu tranh vì độc lập, tự do,<br>\n            vì đời sống ấm no, hạnh phúc của các thế hệ đã qua.\n        </p>\n\n        <p>\n            Về phương diện ấy, những cái gọi là di sản văn hóa, tuy thuộc về quá khứ<br>\n            của một dĩ vãng không bao giờ trở lại, nhưng nó vẫn sống bởi vì những cái<br>\n            chúng ta làm hôm nay, trong đời sống vật chất cũng như trong đời sống tinh<br>\n            thần, là tiếp tục cái hôm qua.\n        </p>\n\n        <p>\n            Trong các loại di sản văn hóa của dân tộc, hiện nay chúng ta cần đặc biệt<br>\n            quan tâm đến các loại sách cổ về đất nước và con người, về văn hóa, xã hội,<br>\n            nhất là về lịch sử nước ta.\n        </p>\n\n        <p>\n            Có sự mâu thuẫn lạ đời này, là dân tộc ta có một lịch sử lâu đời với một<br>\n            nền văn hóa độc đáo mà nhân dân ta từ bao đời, với bàn tay và khối óc của<br>\n            mình, đã tự xây dựng lấy, nhưng chỉ cách đây tám, chín trăm năm, mới có<br>\n            người Việt viết về lịch sử đất nước mình. Còn trước đó, trong các sách của<br>\n            người Tàu viết, chỉ thỉnh thoảng họ mới nói đến cái đất nước của một tộc<br>\n            “man di” gọi là Giao Chỉ, một mảnh đất hầu như hoang vu, con người còn<br>\n            sống sơ khai, cần phải được “Thiên triều” “giáo hóa”.\n        </p>\n\n        <p>\n            Vì thế mà trong suốt cả một thời gian lịch sử rất dài - hai, ba nghìn năm,<br>\n            dân tộc Việt Nam phải liên tục đấu tranh chống họa xâm lược của nước ngoài.<br>\n            Chính trong cuộc đấu tranh đầy hy sinh gian khổ, nhưng anh hùng bất khuất<br>\n            ấy mà dân tộc ta xây dựng và phát triển nền văn hóa độc đáo và xán lạn của<br>\n            mình, tiêu biểu là nền văn hóa Đại Việt thời Lý, Trần, Lê.\n        </p>\n\n        <p>\n            Cho nên, rất dễ hiểu, cách đây tám, chín trăm năm, khi lịch sử nước ta đi<br>\n            vào kỷ nguyên Đại Việt, xuất hiện những nhà sử học lớn như Lê Văn Hưu,<br>\n            Ngô Sĩ Liên…\n        </p>\n\n        <p>\n            Đối với thời kỳ lừng danh như thời Đại Việt, nó là cả một bản anh hùng<br>\n            ca, cái gì có liên quan đến nó, dẫu là một câu, một dòng chữ tự tay nhân vật\n        </p>\n\n    </div>\n</body>\n</html>\n```",
                     "role": "assistant",
                     "tool_calls": null,
                     "function_call": null
@@ -217,9 +222,9 @@
             }
         ],
         "usage": {
-            "completion_tokens": 1467,
-            "prompt_tokens": 272,
-            "total_tokens": 1739,
+            "completion_tokens": 1906,
+            "prompt_tokens": 433,
+            "total_tokens": 2339,
             "completion_tokens_details": null,
             "prompt_tokens_details": {
                 "audio_tokens": null,
@@ -227,91 +232,13 @@
             }
         },
         "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
-                }
-            ]
-        ],
-        "vertex_ai_citation_metadata": [
-            {
-                "citationSources": [
-                    {
-                        "startIndex": 974,
-                        "endIndex": 1097,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1206,
-                        "endIndex": 1329,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1442,
-                        "endIndex": 1575,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1485,
-                        "endIndex": 1626,
-                        "uri": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t_s%E1%BB%AD_k%C3%BD_to%C3%A0n_th%C6%B0",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1628,
-                        "endIndex": 1773,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1682,
-                        "endIndex": 1819,
-                        "uri": "https://thinhtuan.com/dai-viet-su-ky-toan-thu-ngo-si-lien/",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 2139,
-                        "endIndex": 2273,
-                        "uri": "http://nguyenhuuhongminh.com/chi-tiet-tac-pham/1948.aspx",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 2178,
-                        "endIndex": 2351,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 2752,
-                        "endIndex": 2885,
-                        "uri": "http://vnthuquan.org/truyen/truyentext.aspx?tid=2qtqv3m3237n1ntn4ntn31n343tq83a3q3m3237nnn",
-                        "license": ""
-                    }
-                ]
-            }
-        ]
+        "vertex_ai_safety_results": [],
+        "vertex_ai_citation_metadata": []
     },
     {
-        "id": "chatcmpl-bff90fcf-e72d-4221-a243-2bccbf824c60",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
+        "id": "chatcmpl-a81ee843-7956-476c-b5ed-545ea8eee845",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
         "object": "chat.completion",
         "system_fingerprint": null,
         "choices": [
@@ -319,7 +246,7 @@
                 "finish_reason": "stop",
                 "index": 0,
                 "message": {
-                    "content": "```html\n<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">LỜI GIỚI THIỆU</strong></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 16px;\">NGUYỄN KHẮC TOÀN</strong></p>\n<p style=\"text-align: justify; text-indent: 30px;\"><strong style=\"font-size: 16px;\">M</strong>ỘT dân tộc có nền văn hoá lâu đời bao giờ cũng trọng thị, giữ gìn, coi như thiêng liêng những lí lịch của nó, đặc biệt là dấu tích của những sự nghiệp anh hùng và quang vinh của ông cha, nội giống, như nhắc lại những ký công của các bậc tuẫn bởi trong cuộc đấu tranh vì độc lập, tự do, vì đời sống ấm no, hạnh phúc của các thế hệ đã qua.</p>\n<p style=\"text-align: justify; text-indent: 30px;\">Về phương diện ấy, những cái gọi là di sản văn hoá, tuy thuộc về quá khứ của một dĩ vãng không bao giờ trở lại, nhưng nó vẫn sống bởi vì những cái chúng ta làm hôm nay, trong đời sống vật chất cũng như trong đời sống tinh thần, là tiếp tục cái hôm qua.</p>\n<p style=\"text-align: justify; text-indent: 30px;\">Trong các loại di sản văn hóa của dân tộc, hiện nay chúng ta cần đặc biệt quan tâm đến các loại sách có về đất nước và con người, về văn hóa, xã hội, nhất là về lịch sử nước ta.</p>\n<p style=\"text-align: justify; text-indent: 30px;\">Có sự mâu thuẫn lạ đời này, là dân tộc ta có một lịch sử lâu đời với một nền văn hóa độc đáo mà nhân dân ta tự bao đời, với bạn tây và khỏi bè của mình, đã tự xây dựng lấy, đất nước mình. Con người Việt viết về lịch sử những chỉ chục đây người Tàu viết, chỉ thị thoảng họ mới nói đến cái đất nước của một tộc \"<em>man di</em>\" gọi là Giao Chỉ, mỗi mạnh đất hầu như hoang vu, con người còn sống sơ khai, cần phải được \"<em>Thìn triều</em>\" giáo hóa.</p>\n<p style=\"text-align: justify; text-indent: 30px;\">Vì thế mà trong suốt cả một thời gian lịch sử dân tộc Việt Nam phải liên tục đấu tranh chống sự xâm lấn của nước ngoài, chính trong cuộc đấu tranh đầy hy sinh gian khổ, nhưng anh hùng bất khuất ấy mà dân tộc ta xây dựng và phát triển nền văn hóa độc đáo và xán lạn của mình, tiêu biểu là nền văn hóa Đại Việt thời Lý, Trần, Lê.</p>\n<p style=\"text-align: justify; text-indent: 30px;\">Cho nên, rất dễ hiểu, cách đây tầm, chín trăm năm, khi lịch sử nước ta đi vào kỷ nguyên Đại Việt, xuất hiện những nhà sử học lớn như: Lê Văn Hưu, Ngô Sĩ Liên...</p>\n<p style=\"text-align: justify; text-indent: 30px;\">Đối với thời kỳ dựng danh như thời Đại Việt, nó là một bản anh hùng ca, cái gì có liên quan đến nó, đều là một câu, một dòng chữ tự tay nhân vật</p>\n```",
+                    "content": "```html\n<!DOCTYPE html>\n<html lang=\"vi\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Page 8</title>\n    <style>\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: serif; /* Using a generic serif font */\n            background-color: #fff;\n        }\n        .page {\n            position: relative;\n            width: 827px; /* Standard A4 width in pixels at 96 DPI */\n            height: 1170px; /* Standard A4 height in pixels at 96 DPI */\n            margin: 0 auto;\n            overflow: hidden;\n        }\n        div, p {\n            position: absolute;\n            margin: 0;\n            padding: 0;\n            line-height: 1.4; /* Adjust as needed */\n            white-space: pre-wrap; /* Preserve whitespace and line breaks */\n            word-wrap: break-word;\n        }\n        .ft0 { font-size: 14px; }\n        .ft1 { font-size: 15px; }\n        .ft2 { font-size: 14px; font-weight: bold; }\n        .ft3 { font-size: 15px; font-weight: bold; }\n\n        /* Positioning based on visual analysis */\n        #p8_1 { top: 117px; left: 118px; }\n        #p8_2 { top: 117px; left: 446px; }\n        #p8_3 { top: 135px; left: 446px; width: 270px; height: 1px; background-color: black; } /* Horizontal line */\n        #p8_4 { top: 159px; left: 118px; }\n        #p8_5 { top: 178px; left: 118px; }\n        #p8_6 { top: 197px; left: 118px; }\n        #p8_7 { top: 234px; left: 118px; }\n        #p8_8 { top: 253px; left: 118px; }\n        #p8_9 { top: 272px; left: 118px; }\n        #p8_10 { top: 291px; left: 118px; }\n        #p8_11 { top: 310px; left: 118px; }\n        #p8_12 { top: 347px; left: 148px; }\n        #p8_13 { top: 366px; left: 118px; }\n        #p8_14 { top: 385px; left: 118px; }\n        #p8_15 { top: 404px; left: 118px; }\n        #p8_16 { top: 441px; left: 148px; }\n        #p8_17 { top: 460px; left: 118px; }\n        #p8_18 { top: 479px; left: 118px; }\n        #p8_19 { top: 498px; left: 118px; }\n        #p8_20 { top: 517px; left: 118px; }\n        #p8_21 { top: 536px; left: 118px; }\n        #p8_22 { top: 573px; left: 118px; }\n        #p8_23 { top: 592px; left: 118px; }\n        #p8_24 { top: 611px; left: 118px; }\n        #p8_25 { top: 630px; left: 118px; }\n        #p8_26 { top: 649px; left: 118px; }\n        #p8_27 { top: 686px; left: 148px; }\n        #p8_28 { top: 723px; left: 148px; }\n        #p8_29 { top: 742px; left: 118px; }\n        #p8_30 { top: 761px; left: 118px; }\n        #p8_31 { top: 780px; left: 118px; }\n        #p8_32 { top: 817px; left: 148px; }\n        #p8_33 { top: 836px; left: 118px; }\n        #p8_34 { top: 855px; left: 118px; }\n        #p8_35 { top: 874px; left: 118px; }\n        #p8_36 { top: 893px; left: 118px; }\n    </style>\n</head>\n<body>\n    <div class=\"page\">\n        <div id=\"p8_1\" class=\"ft0\">8</div>\n        <div id=\"p8_2\" class=\"ft1\">NGUYỄN KHÁNH TOÀN</div>\n        <div id=\"p8_3\"></div>\n        <div id=\"p8_4\" class=\"ft1\">đã sống hoặc đã chứng kiến những giờ phút huy hoàng viết ra, mà ta được</div>\n        <div id=\"p8_5\" class=\"ft1\">đọc hay được nghe, đều là tiếng nói thân thiết từ ngàn xưa vọng lại, làm rung</div>\n        <div id=\"p8_6\" class=\"ft1\">động tâm hồn của chúng ta biết bao.</div>\n        <div id=\"p8_7\" class=\"ft1\">Cho nên, việc đáng mừng là chúng ta đã tìm lại được bản in xưa nhất của</div>\n        <div id=\"p8_8\" class=\"ft1\">bộ <b class=\"ft3\">Đại Việt sử ký toàn thư</b>. Đó là bản in theo ván khắc năm Chính Hòa</div>\n        <div id=\"p8_9\" class=\"ft1\">thứ 18, tức năm 1697, mà trước đây tưởng như không hy vọng tìm thấy. Còn</div>\n        <div id=\"p8_10\" class=\"ft1\">những bản in chúng ta vẫn thường dùng là những bản in sau đó, vào đời</div>\n        <div id=\"p8_11\" class=\"ft1\">Nguyễn.</div>\n        <div id=\"p8_12\" class=\"ft1\"><b class=\"ft3\">Đại Việt sử ký toàn thư</b> là một thành tựu của nền văn hóa Đại Việt.</div>\n        <div id=\"p8_13\" class=\"ft1\">Nó là một công trình biên soạn lịch sử đồ sộ của nhiều nhà sử học nổi tiếng</div>\n        <div id=\"p8_14\" class=\"ft1\">của nước ta, từ Lê Văn Hưu đời Trần, qua Phan Phu Tiên, Ngô Sĩ Liên, đến</div>\n        <div id=\"p8_15\" class=\"ft1\">Phạm Công Trứ, Lê Hy đời Lê.</div>\n        <div id=\"p8_16\" class=\"ft1\">Bộ sử được đặt cơ sở đầu tiên với <b class=\"ft3\">Đại Việt sử ký 30 quyển</b> của Lê Văn</div>\n        <div id=\"p8_17\" class=\"ft1\">Hưu, viết xong năm 1272, trong thời kỳ chiến đấu oanh liệt chống quân xâm</div>\n        <div id=\"p8_18\" class=\"ft1\">lược Mông - Nguyên. Nó được tiếp tục với Phan Phu Tiên, Ngô Sĩ Liên thế</div>\n        <div id=\"p8_19\" class=\"ft1\">kỷ XV, trong giai đoạn phát triển cao nhất của nền văn hóa Đại Việt, giai đoạn</div>\n        <div id=\"p8_20\" class=\"ft1\">của vũ công chống Minh, của <b class=\"ft3\">Đại cáo bình Ngô</b>, của chủ nghĩa yêu nước hoàn</div>\n        <div id=\"p8_21\" class=\"ft1\">chỉnh và tiên tiến của Nguyễn Trãi. Nó được hoàn thành và công bố năm 1697,</div>\n        <div id=\"p8_22\" class=\"ft1\">biên chép lịch sử dân tộc từ buổi đầu dựng nước cho đến năm 1675.</div>\n        <div id=\"p8_23\" class=\"ft1\">Một công trình sử học được xây dựng trong bối cảnh lịch sử như thế hẳn</div>\n        <div id=\"p8_24\" class=\"ft1\">mang hơi thở của thời đại, phản ánh được tương đối chính xác và đầy đủ</div>\n        <div id=\"p8_25\" class=\"ft1\">thực tế hào hùng của đất nước. Và điều chắc chắn, nó là kho tư liệu phong</div>\n        <div id=\"p8_26\" class=\"ft1\">phú không những cần thiết cho ngành sử học mà còn giúp ích cho nhiều ngành</div>\n        <div id=\"p8_27\" class=\"ft1\">khoa học xã hội khác nữa.</div>\n        <div id=\"p8_28\" class=\"ft1\">Bộ <b class=\"ft3\">Đại Việt sử ký toàn thư</b> là một di sản vô giá của văn hóa dân tộc.</div>\n        <div id=\"p8_29\" class=\"ft1\">Tôi xin trân trọng giới thiệu với các nhà khoa học trong và ngoài nước, với</div>\n        <div id=\"p8_30\" class=\"ft1\">tất cả bạn đọc, bản dịch <b class=\"ft3\">Đại Việt sử ký toàn thư</b> dựa trên ván khắc năm</div>\n        <div id=\"p8_31\" class=\"ft1\">1697 kèm theo chú giải, sách dẫn và bản chụp nguyên văn chữ Hán.</div>\n        <div id=\"p8_32\" class=\"ft1\">Tôi hy vọng công trình xuất bản này sẽ đáp ứng được yêu cầu nghiên cứu</div>\n        <div id=\"p8_33\" class=\"ft1\">của các nhà sử học, các nhà khoa học thuộc nhiều ngành khoa học xã hội trong</div>\n        <div id=\"p8_34\" class=\"ft1\">nước, các nhà Việt Nam học trên thế giới và tất cả những ai muốn tìm hiểu,</div>\n        <div id=\"p8_35\" class=\"ft1\">nghiên cứu lịch sử Việt Nam.</div>\n    </div>\n</body>\n</html>\n```",
                     "role": "assistant",
                     "tool_calls": null,
                     "function_call": null
@@ -327,9 +254,9 @@
             }
         ],
         "usage": {
-            "completion_tokens": 747,
-            "prompt_tokens": 272,
-            "total_tokens": 1019,
+            "completion_tokens": 3450,
+            "prompt_tokens": 433,
+            "total_tokens": 3883,
             "completion_tokens_details": null,
             "prompt_tokens_details": {
                 "audio_tokens": null,
@@ -337,55 +264,13 @@
             }
         },
         "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
-                }
-            ]
-        ],
-        "vertex_ai_citation_metadata": [
-            {
-                "citationSources": [
-                    {
-                        "startIndex": 767,
-                        "endIndex": 935,
-                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1852,
-                        "endIndex": 2052,
-                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 2142,
-                        "endIndex": 2271,
-                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
-                        "license": ""
-                    }
-                ]
-            }
-        ]
+        "vertex_ai_safety_results": [],
+        "vertex_ai_citation_metadata": []
     },
     {
-        "id": "chatcmpl-53987ce2-e840-4781-89c5-2a94288ce4dc",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
+        "id": "chatcmpl-63fc1328-c4a5-4d36-ba87-d0085ca068e5",
+        "created": 1744992950,
+        "model": "gemini-2.5-pro-preview-03-25",
         "object": "chat.completion",
         "system_fingerprint": null,
         "choices": [
@@ -393,7 +278,7 @@
                 "finish_reason": "stop",
                 "index": 0,
                 "message": {
-                    "content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Converted Image</title>\n  <style>\n    body {\n      font-family: sans-serif;\n      margin: 20px;\n    }\n    p {\n      text-align: justify;\n      line-height: 1.5;\n    }\n    strong {\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n  <p>8  NGUYỄN KHÁNH TOÀN</p>\n  <p>đã sống hoặc đã chứng kiến những gì phút huy hoàng viết ra, mà ta được đọc hay được nghe, đều là tiếng nói thân thiết từ dòng tâm hồn của chúng ta biết bao.</p>\n  <p>Cho nên, việc đáng mừng là chúng ta đã tìm lại được bản in xưa nhất của bộ <strong>Đại Việt sử ký toàn thư</strong>. Đó là bản in theo văn khắc năm Chính Hòa thứ 18, tức năm 1697, mà trước đây tưởng như không hy vọng tìm thấy.  Còn những bản in chúng ta vẫn thường dùng là những bản in sau đó, vào đời Nguyễn.</p>\n  <p><strong>Đại Việt sử ký toàn thư</strong> là một thành tựu của nền văn hóa Đại Việt. Nó là một công trình biên soạn lịch sử đồ sộ của nhiều nhà sử học nổi tiếng của nước ta, từ Lê Văn Hưu đời Trần, qua Phan Phu Tiên, Ngô Sĩ Liên, đến Phạm Công Trứ, Lê Hy đời Lê. </p>\n  <p>Bộ sử được đặt cơ sở đầu tiên với <strong>Đại Việt sử ký</strong> 30 quyển của Lê Văn Hưu, viết xong năm 1272, trong thời kỳ chiến đấu oanh liệt chống quân xâm lược Mông - Nguyên. Nó được tiếp tục với Phan Phu Tiên, Ngô Sĩ Liên thế kỷ XV, trong giai đoạn phát triển cao nhất của nền văn hóa Đại Việt, giai đoạn của vũ công chống Minh, của Đại cáo bình Ngô, của chính vị tiên của Nguyễn Trãi. Nó được hoàn chỉnh và công bố năm 1697, biến chếp lịch sử dân tộc từ buổi đầu dựng nước cho đến năm 1675.</p>\n  <p>Một công trình sử học được xây dựng trong bối cảnh lịch sử như thế hẳn mang hơi thở của thời đại, phản ánh được tương đối chính xác và đầy đủ thực tế hào hùng của đất nước. Và điều chắc chắn, nó là kho tư liệu phong phú không những cần thiết cho ngành sử học mà còn giúp ích cho nhiều ngành khoa học xã hội khác nữa. </p>\n  <p>Bộ <strong>Đại Việt sử ký toàn thư</strong> là một di sản vô giá của văn hóa dân tộc.</p>\n  <p>Tôi xin trân trọng giới thiệu với các nhà khoa học trong và ngoài nước, với tất cả bạn đọc, bản dịch <strong>Đại Việt sử ký toàn thư</strong> dựa trên văn khắc năm 1697 kèm theo chú giải, sách dẫn và bảng chú ngữ nguyên văn chữ Hán.</p>\n  <p>Tôi hy vọng công trình xuất bản này sẽ đáp ứng được yêu cầu nghiên cứu của các nhà sử học, các nhà khoa học thuộc nhiều ngành khoa học xã hội trong nước, các nhà Việt Nam học trên thế giới và tất cả những ai muốn tìm hiểu, nghiên cứu lịch sử Việt Nam.</p>\n</body>\n</html>\n\n```",
+                    "content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<title>KÝ HIỆU VÀ CHỮ VIẾT TẮT</title>\n<style>\n    body {\n        font-family: \"Times New Roman\", Times, serif;\n        font-size: 12pt; /* Estimated base font size */\n        line-height: 1.45; /* Adjusted for visual spacing */\n    }\n    .page-container {\n        width: 600px; /* Adjust width to approximate original content area */\n        margin: 30px auto; /* Center content */\n        padding: 20px;\n    }\n    .title {\n        text-align: center;\n        font-weight: bold;\n        font-size: 1.15em; /* Slightly larger and bold */\n        margin-bottom: 3em; /* Space below title */\n        letter-spacing: 1px; /* Slight spacing in title */\n    }\n    table {\n        border-collapse: collapse;\n        width: 100%;\n    }\n    td {\n        vertical-align: top;\n        padding: 0 0 0.4em 0; /* Padding: top right bottom left; added bottom padding for row spacing */\n        font-size: 1em; /* Maintain base font size */\n    }\n    .col1 {\n        width: 18%; /* Width for the first column (abbreviations) */\n        padding-right: 2em; /* Space between columns */\n        text-align: left;\n    }\n    .col2 {\n        width: 82%; /* Width for the second column (explanations) */\n        text-align: left;\n    }\n</style>\n</head>\n<body>\n<div class=\"page-container\">\n    <p class=\"title\">KÝ HIỆU VÀ CHỮ VIẾT TẮT</p>\n    <table>\n        <tbody>\n            <tr><td class=\"col1\">[5a]</td><td class=\"col2\">Tờ 5 mặt a theo bản Chính Hòa.</td></tr>\n            <tr><td class=\"col1\">[...]</td><td class=\"col2\">Đổi ra năm dương lịch hoặc nội dung<br>đưa thêm vào bản dịch cho rõ nghĩa.</td></tr>\n            <tr><td class=\"col1\">(...)</td><td class=\"col2\">Nguyên chú của văn bản chữ Hán.</td></tr>\n            <tr><td class=\"col1\">1.</td><td class=\"col2\">Số thứ tự chú thích của người dịch và người chú giải.</td></tr>\n            <tr><td class=\"col1\">Toàn thư</td><td class=\"col2\">Đại Việt sử ký toàn thư.</td></tr>\n            <tr><td class=\"col1\">Cương mục</td><td class=\"col2\">Khâm định Việt sử thông giám cương mục.</td></tr>\n            <tr><td class=\"col1\">NK7, 9b</td><td class=\"col2\">Toàn thư, Ngoại kỷ, quyển 7, tờ 9b.</td></tr>\n            <tr><td class=\"col1\">BK5, 15a</td><td class=\"col2\">Toàn thư, Bản kỷ, quyển 5, tờ 15a.</td></tr>\n            <tr><td class=\"col1\">CMTB5, 6a</td><td class=\"col2\">Cương mục, Tiền biên, quyển 5, tờ 6a.</td></tr>\n            <tr><td class=\"col1\">CMCB7, 12b</td><td class=\"col2\">Cương mục, Chính biên, quyển 7, tờ 12b.</td></tr>\n            <tr><td class=\"col1\">T. 4</td><td class=\"col2\">Tập 4.</td></tr>\n            <tr><td class=\"col1\">Q. 5</td><td class=\"col2\">Quyển 5.</td></tr>\n            <tr><td class=\"col1\">tr. 17</td><td class=\"col2\">Trang 17.</td></tr>\n        </tbody>\n    </table>\n</div>\n</body>\n</html>\n```",
                     "role": "assistant",
                     "tool_calls": null,
                     "function_call": null
@@ -401,9 +286,9 @@
             }
         ],
         "usage": {
-            "completion_tokens": 774,
-            "prompt_tokens": 272,
-            "total_tokens": 1046,
+            "completion_tokens": 3998,
+            "prompt_tokens": 433,
+            "total_tokens": 4431,
             "completion_tokens_details": null,
             "prompt_tokens_details": {
                 "audio_tokens": null,
@@ -411,112 +296,7 @@
             }
         },
         "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
-                }
-            ]
-        ],
-        "vertex_ai_citation_metadata": [
-            {
-                "citationSources": [
-                    {
-                        "startIndex": 668,
-                        "endIndex": 821,
-                        "uri": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t_s%E1%BB%AD_k%C3%BD_to%C3%A0n_th%C6%B0",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 870,
-                        "endIndex": 1093,
-                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1174,
-                        "endIndex": 1402,
-                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 1608,
-                        "endIndex": 1895,
-                        "uri": "https://ebookhay.net/dai-viet-su-ky-toan-thu-pdf/",
-                        "license": ""
-                    },
-                    {
-                        "startIndex": 2272,
-                        "endIndex": 2525,
-                        "uri": "https://moiday.com/dai-viet-su-ky-toan-thu-review",
-                        "license": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "chatcmpl-89e49b0c-b494-432c-94ba-58413229a69b",
-        "created": 1744948998,
-        "model": "gemini-1.5-pro-001",
-        "object": "chat.completion",
-        "system_fingerprint": null,
-        "choices": [
-            {
-                "finish_reason": "stop",
-                "index": 0,
-                "message": {
-                    "content": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>KÝ HIỆU VÀ CHÚ VIẾT TẮT</title>\n</head>\n<body>\n  <div style=\"text-align: center;\">\n    <h1>KÝ HIỆU VÀ CHÚ VIẾT TẮT</h1>\n  </div>\n\n  <p>[5a]</p>\n  <p>[...]</p>\n  <p>(...)</p>\n\n  <p style=\"text-indent: 2em;\">Tờ 5 mặt a theo bản Chính Hòa.</p>\n  <p style=\"text-indent: 2em;\">Đổi ra năm dương lịch hoặc nội dung dựa thêm vào bản dịch cho rõ nghĩa.</p>\n  <p style=\"text-indent: 2em;\">Nguyên chữ của văn bản chữ Hán.</p>\n\n  <p>1.</p>\n\n  <table style=\"width: 100%;\">\n    <tbody>\n      <tr>\n        <td>Toán thư</td>\n        <td>Đại Việt sử ký toàn thư.</td>\n      </tr>\n      <tr>\n        <td>Cương mục</td>\n        <td>Khâm định Việt sử thông giám cương mục.</td>\n      </tr>\n      <tr>\n        <td>NK7, 9b</td>\n        <td>Toàn thư, Ngoại kỷ, quyển 7, tờ 9b.</td>\n      </tr>\n      <tr>\n        <td>BK5, 15a</td>\n        <td>Toàn thư, Bản kỷ, quyển 5, tờ 15a.</td>\n      </tr>\n      <tr>\n        <td>CMTB5, 6a</td>\n        <td>Cương mục, Tiền biên, quyển 5, tờ 6a.</td>\n      </tr>\n      <tr>\n        <td>CMCB7, 12b</td>\n        <td>Cương mục, Chính biên, quyển 7, tờ 12b.</td>\n      </tr>\n      <tr>\n        <td>T. 4</td>\n        <td>Tập 4.</td>\n      </tr>\n      <tr>\n        <td>Q. 5</td>\n        <td>Quyển 5.</td>\n      </tr>\n      <tr>\n        <td>tr. 17</td>\n        <td>Trang 17.</td>\n      </tr>\n    </tbody>\n  </table>\n</body>\n</html>\n```",
-                    "role": "assistant",
-                    "tool_calls": null,
-                    "function_call": null
-                }
-            }
-        ],
-        "usage": {
-            "completion_tokens": 523,
-            "prompt_tokens": 272,
-            "total_tokens": 795,
-            "completion_tokens_details": null,
-            "prompt_tokens_details": {
-                "audio_tokens": null,
-                "cached_tokens": null
-            }
-        },
-        "vertex_ai_grounding_metadata": [],
-        "vertex_ai_safety_results": [
-            [
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "probability": "NEGLIGIBLE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "probability": "NEGLIGIBLE"
-                }
-            ]
-        ],
+        "vertex_ai_safety_results": [],
         "vertex_ai_citation_metadata": []
     }
 ]
